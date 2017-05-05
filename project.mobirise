@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -148,11 +148,11 @@
             "Theme"
           ],
           "_name": "image1",
-          "_anchor": "image1-e",
+          "_anchor": "image1-f",
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/steambatgif01.gif",
+              "src": "@PROJECT_PATH@/assets/images/headergifdesign.gif",
               "width": 1400,
               "link": "",
               "alt": "",
