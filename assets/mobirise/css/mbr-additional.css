@@ -421,3 +421,6 @@ h6,
 #header1-j .mbr-section-title SPAN {
   text-align: left;
 }
+#header1-j .mbr-section-lead {
+  font-size: 18px;
+}

@@ -39,30 +39,27 @@
       },
       "components": [
         {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        },
-        {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
+              "font-size": "46px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "font-size": "18px"
+            }
+          },
           "_anchor": "header1-j",
           "_params": {
-            "parallax": true,
+            "parallax": false,
             "bgImageRadio": true,
             "showArrow": true,
             "bgImage": "@PROJECT_PATH@/assets/images/headergifdesign.gif",
@@ -81,19 +78,8 @@
             "showButtons": false
           },
           "title": "<span style=\"font-weight: normal;\">Death By Bosko.</span>",
-          "text": "Hiya. Welp, me an illustrator and graphic designer. I create diagrams and pictures for books and signery; and advertisements for multi-media. I also prettify things - like buttons for GUIs and wireframes for sites and apps. Basically? I am your make-up artist on a bad hair day. Death to bad hair days my lovelies; death By Bosko.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Open Sans Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
-              "font-size": "46px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title SPAN": {
-              "text-align": "left"
-            }
-          }
+          "text": "Hiya. Welp, I'm an illustrator and graphic designer. I create diagrams and pictures for books and signery; and advertisements for multi-media. I also prettify things - like buttons for GUIs and wireframes for sites and apps. Basically? I am your make-up artist on a bad hair day. Death to bad hair days my lovelies; Death By Bosko.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
         }
       ]
     }
