@@ -454,7 +454,8 @@ p.lead,
 
 .lead {
   font-size: 1.07rem;
-  font-weight: 300; }
+  font-weight: 300;
+width:575px; }
   .lead a {
     font-family: "Lora";
     font-style: italic;
@@ -636,6 +637,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   background-repeat: no-repeat;
   background-size: cover; }
 
+.mbr-section.col-md-10 {
+	padding-top:0px;
+}
 .mbr-section-full {
   display: table;
   height: 100vh;
