@@ -1,3 +1,6 @@
+#DBozNavLinks {
+     position:absolute;
+}
 nav#DBozNavLinks ul li {
      float: left;
 }
