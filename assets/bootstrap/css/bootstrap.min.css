@@ -1,11 +1,12 @@
 /* NAV LIST ITEMS WITH IMAGES */
 
 #DBozNavLinks {
-     float: right;
+     left:500px;
+     position:absolute;
 }
 nav#DBozNavLinks ul li {
-     float: left;
-     padding:0px;
+     /*float: left;
+     padding:0px;*/
 }
 nav#DBozNavLinks ul li a{
      margin: 0px;
