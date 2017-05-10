@@ -1,8 +1,10 @@
 #DBozNavLinks {
      position:absolute;
+     right: 0px;
 }
 nav#DBozNavLinks ul li {
      float: left;
+     padding-right:50px;
 }
 
 
