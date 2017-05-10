@@ -16,7 +16,7 @@ nav#DBozNavLinks ul li a{
 }
 
 .Gallery{
-    background-image: url("/assets/images/UIGallery.png") no-repeat;
+    background-image: url("https:esquiresque.github.io/assets/images/UIGallery.png") no-repeat;
     height: 60px;
     width: 168px;
     margin-right: 100px;
