@@ -15,18 +15,18 @@ nav#DBozNavLinks ul li a{
      height: 100%;
 }
 
-ul li a div .Gallery{
+div .Gallery{
     background: url("/assets/images/UIGallery.png") no-repeat;
     height: 60px;
     width: 168px;
 }
 
-ul li a div .Services{
+div .Services{
     background: url("/assets/images/UIServices.png") no-repeat;
     height: 58px;
     width: 188px;
 }
-ul li a div .About{
+div .About{
     background: url("/assets/images/UIAbout.png") no-repeat;
     height: 62px;
     width: 61px;
