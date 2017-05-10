@@ -15,19 +15,21 @@ nav#DBozNavLinks ul li a{
      height: 100%;
 }
 
-/*div .Gallery{
-    background: url("/assets/images/UIGallery.png") no-repeat;
+.Gallery{
+    background-image: url("/assets/images/UIGallery.png") no-repeat;
     height: 60px;
     width: 168px;
+    margin-right: 100px;
 }
 
-div .Services{
-    background: url("/assets/images/UIServices.png") no-repeat;
+.Services{
+    background-image: url("/assets/images/UIServices.png") no-repeat;
     height: 58px;
     width: 188px;
+    margin-right: 100px
 }
-div .About{
-    background: url("/assets/images/UIAbout.png") no-repeat;
+.About{
+    background-image: url("/assets/images/UIAbout.png") no-repeat;
     height: 62px;
     width: 61px;
 }*/
