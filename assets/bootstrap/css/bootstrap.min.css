@@ -23,13 +23,13 @@ nav#DBozNavLinks ul li a{
 }
 
 .Services{
-    background-image: url("/assets/images/UIServices.png") no-repeat;
+    background: url("/assets/images/UIServices.png") no-repeat;
     height: 58px;
     width: 188px;
     margin-right: 100px
 }
 .About{
-    background-image: url("/assets/images/UIAbout.png") no-repeat;
+    background: url("/assets/images/UIAbout.png") no-repeat;
     height: 62px;
     width: 61px;
 }*/
