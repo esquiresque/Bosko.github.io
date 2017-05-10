@@ -15,6 +15,23 @@ nav#DBozNavLinks ul li a{
      height: 100%;
 }
 
+nav#DBozNavLinks ul li a div .Gallery{
+    background: url("/assets/images/UIGallery.png") no-repeat;
+    height: 60px;
+    width: 168px;
+}
+
+nav#DBozNavLinks ul li a div .Services{
+    background: url("/assets/images/UIServices.png") no-repeat;
+    height: 58px;
+    width: 188px;
+}
+nav#DBozNavLinks ul li a div .About{
+    background: url("/assets/images/UIAbout.png") no-repeat;
+    height: 62px;
+    width: 61px;
+}
+
 /* END OF NAV LIST ITEM THINGY */
 
 img, legend {
