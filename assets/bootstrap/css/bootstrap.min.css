@@ -478,7 +478,7 @@ hr {
 }
 
 .container{
-     background:rgba(0, 0, 0, 0) url("assets/images/headergifdesign.gif") no-repeat scroll 0 0;
+     background:rgba(0, 0, 0, 0) url("/assets/images/headergifdesign.gif") no-repeat scroll 0 0;
      width:80%
 }
 
