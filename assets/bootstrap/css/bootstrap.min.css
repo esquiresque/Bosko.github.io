@@ -1,7 +1,7 @@
 /* NAV LIST ITEMS WITH IMAGES */
 
 #DBozNavLinks {
-     left:500px;
+     left:400px;
      position:absolute;
 }
 nav#DBozNavLinks ul li {
@@ -475,6 +475,11 @@ hr {
 .dl-horizontal {
      margin-left: -1.875rem;
      margin-right: -1.875rem;
+}
+
+.container{
+     rgba(0, 0, 0, 0) url("assets/images/headergifdesign.gif") no-repeat scroll 0 0;
+     width:80%
 }
 
 .container, .container-fluid {
