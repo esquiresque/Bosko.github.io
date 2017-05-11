@@ -1,8 +1,7 @@
 /* NAV LIST ITEMS WITH IMAGES */
 
 #DBozNavLinks {
-     left:400px;
-     position:absolute;
+     float:right;
 }
 nav#DBozNavLinks ul li {
      /*float: left;
