@@ -241,7 +241,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/boskointrofade-1.gif",
+            "bgImage": "@PROJECT_PATH@/assets/images/boskointrofadetest.gif",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
