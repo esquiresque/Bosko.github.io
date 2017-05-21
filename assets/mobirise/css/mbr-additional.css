@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -442,19 +444,19 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-menu {
-  background: #2c95d4;
+  background: #000000;
 }
 #menu-0 .nav-dropdown-sm .link:focus,
 #menu-0 .nav-dropdown-sm .link:hover,
 #menu-0 .nav-dropdown-sm .dropdown-item:focus,
 #menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #49a4da!important;
+  background: #000000!important;
 }
 #menu-0 .navbar,
 #menu-0 .nav-dropdown-sm,
 #menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #56aadd;
+  background: #000000;
 }
 #menu-0 .bg-color.transparent .link {
   color: #00a885;
@@ -476,6 +478,15 @@ h6,
   background-color: #00a885;
 }
 #slider-0 P {
-  color: #2969b0;
+  color: #b8312f;
   text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#slider-0 B {
+  color: #ffffff;
+  font-size: 36px;
+}
+#slider-0 SPAN {
+  color: #fac51c;
+  font-size: 30px;
 }
