@@ -227,8 +227,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
+              "name": "formulr",
+              "family": "socicon",
               "link": "index.html",
               "size": "141",
               "newWindow": false,
