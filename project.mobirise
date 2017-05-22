@@ -8,7 +8,7 @@
       "styling": {
         "primaryColor": "#c0a375",
         "secondaryColor": "#bfcecb",
-        "successColor": "#7e9b9f",
+        "successColor": "#000000",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 9,
+    "uniqCompNum": 10,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -43,10 +43,10 @@
           "_name": "slider",
           "_styles": {
             "P": {
-              "color": "#000000",
+              "color": "#475577",
               "text-align": "left",
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "font-size": "32px"
             },
             "B": {
@@ -55,13 +55,13 @@
             },
             "SPAN": {
               "color": "#faaf40",
-              "font-size": "46px",
+              "font-size": "80px",
               "text-align": "right"
             },
             ".btn": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "16px"
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -99,7 +99,7 @@
                 "title": "FULL SCREEN SLIDER",
                 "showText": true,
                 "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;<br></p>",
-                "showButtons": true,
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">But I do illustrate<br>and design things. Come see my gallery.</a>  "
               },
               {
@@ -108,15 +108,15 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "overlayOpacity": "0.3",
+                "overlayOpacity": "0.4",
                 "overlayColor": "#ffffff",
-                "contentAlign": "center",
+                "contentAlign": "right",
                 "showTitle": false,
                 "title": "FULL SCREEN SLIDER",
-                "showText": true,
-                "text": "<p><b>Storyboards and Wireframes are part of my thing.&nbsp;</b>&nbsp;&nbsp;&nbsp;</p>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">What's a Wireframe?</a>  "
+                "showText": false,
+                "text": "<p>Storyboards and Wireframes are part of my thing.&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-twitter mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a>  "
               },
               {
                 "active": false,
@@ -131,8 +131,8 @@
                 "title": "FULL SCREEN SLIDER",
                 "showText": false,
                 "text": "<span style=\"font-style: normal;\">Hello, </span><span style=\"font-style: normal;\">I'm</span>&nbsp;<span style=\"font-style: normal;\">not Walt Disney.</span>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am Bosko</a>  "
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am a Bosko!<br>And now, a little bit about me...</a>  "
               }
             ],
             "fullScreen": true,
@@ -151,15 +151,15 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#3d8eb9"
+              "color": "#cccccc"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3d8eb9"
+              "background-color": "#cccccc"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-family": "'Roboto', sans-serif"
+              "color": "#cccccc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
               "font-size": "1.2rem"
@@ -180,7 +180,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#3d8eb9",
+              "color": "#cccccc",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -202,16 +202,16 @@
             "bgColor": "#ffffff",
             "fontSize": "1.2",
             "fontName": {
-              "name": "Roboto",
-              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "css": "'Roboto', sans-serif"
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
             },
-            "fontColor": "#3d8eb9",
+            "fontColor": "#cccccc",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
             "logo": false,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
@@ -236,7 +236,7 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Bosko Designs Home</a>",
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Home</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Gallery</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">About Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         }
       ]

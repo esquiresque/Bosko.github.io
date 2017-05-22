@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
@@ -90,7 +90,7 @@ h6,
   background-color: #c0a375 !important;
 }
 .bg-success {
-  background-color: #7e9b9f !important;
+  background-color: #000000 !important;
 }
 .bg-info {
   background-color: #7e9b9f !important;
@@ -162,8 +162,8 @@ h6,
   border-color: #597478 !important;
 }
 .btn-success {
-  background-color: #7e9b9f;
-  border-color: #7e9b9f;
+  background-color: #000000;
+  border-color: #000000;
   color: #ffffff;
 }
 .btn-success:hover,
@@ -172,14 +172,14 @@ h6,
 .btn-success:active,
 .btn-success.active {
   color: #ffffff;
-  background-color: #597478;
-  border-color: #597478;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #597478 !important;
-  border-color: #597478 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-warning {
   background-color: #f3c649;
@@ -283,8 +283,8 @@ h6,
 }
 .btn-success-outline {
   background: none;
-  border-color: #4e6669;
-  color: #4e6669;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
@@ -292,14 +292,14 @@ h6,
 .btn-success-outline:active,
 .btn-success-outline.active {
   color: #ffffff;
-  background-color: #7e9b9f;
-  border-color: #7e9b9f;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #7e9b9f !important;
-  border-color: #7e9b9f !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-warning-outline {
   background: none;
@@ -345,7 +345,7 @@ h6,
   color: #c0a375 !important;
 }
 .text-success {
-  color: #7e9b9f !important;
+  color: #000000 !important;
 }
 .text-info {
   color: #7e9b9f !important;
@@ -357,7 +357,7 @@ h6,
   color: #f28281 !important;
 }
 .alert-success {
-  background-color: #7e9b9f;
+  background-color: #000000;
 }
 .alert-info {
   background-color: #7e9b9f;
@@ -402,7 +402,7 @@ h6,
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #c7d4d5;
+  color: #b3b3b3;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -424,9 +424,9 @@ h6,
   opacity: 0 !important;
 }
 #slider-0 P {
-  color: #000000;
+  color: #475577;
   text-align: left;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 32px;
 }
 #slider-0 B {
@@ -435,12 +435,12 @@ h6,
 }
 #slider-0 SPAN {
   color: #faaf40;
-  font-size: 46px;
+  font-size: 80px;
   text-align: right;
 }
 #slider-0 .btn {
-  font-family: 'Slabo 27px', serif;
-  font-size: 16px;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
 }
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
@@ -449,16 +449,16 @@ h6,
   color: #ffffff;
 }
 #menu-6 .navbar-toggler {
-  color: #3d8eb9;
+  color: #cccccc;
 }
 #menu-6 .close-icon::before,
 #menu-6 .close-icon::after {
-  background-color: #3d8eb9;
+  background-color: #cccccc;
 }
 #menu-6 .link,
 #menu-6 .dropdown-item {
-  color: #3d8eb9;
-  font-family: 'Roboto', sans-serif;
+  color: #cccccc;
+  font-family: 'Open Sans', sans-serif;
 }
 #menu-6 .link {
   font-size: 1.2rem;
@@ -490,7 +490,7 @@ h6,
   background: #ffffff;
 }
 #menu-6 .bg-color.transparent .link {
-  color: #3d8eb9;
+  color: #cccccc;
   transition: none;
 }
 #menu-6 .bg-color.transparent.opened .link {
