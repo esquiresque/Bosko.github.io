@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 9,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -210,7 +210,7 @@
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "collapsed": true,
             "hideButtons": true
