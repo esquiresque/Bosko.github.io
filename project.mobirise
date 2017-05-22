@@ -66,8 +66,8 @@
           },
           "_params": {
             "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "4",
             "timeout": "7",
             "slides": [
               {
@@ -135,7 +135,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am a Bosko!<br>And now, a little bit about me...</a>  "
               }
             ],
-            "fullScreen": true,
+            "fullScreen": false,
             "bgColor": "#fff",
             "showBullets": true
           },
@@ -148,7 +148,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#cccccc"
