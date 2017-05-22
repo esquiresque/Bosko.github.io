@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -56,6 +58,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -82,7 +90,7 @@ h6,
   background-color: #c0a375 !important;
 }
 .bg-success {
-  background-color: #90a878 !important;
+  background-color: #7e9b9f !important;
 }
 .bg-info {
   background-color: #7e9b9f !important;
@@ -154,8 +162,8 @@ h6,
   border-color: #597478 !important;
 }
 .btn-success {
-  background-color: #90a878;
-  border-color: #90a878;
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
   color: #ffffff;
 }
 .btn-success:hover,
@@ -164,14 +172,14 @@ h6,
 .btn-success:active,
 .btn-success.active {
   color: #ffffff;
-  background-color: #6a8153;
-  border-color: #6a8153;
+  background-color: #597478;
+  border-color: #597478;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #6a8153 !important;
-  border-color: #6a8153 !important;
+  background-color: #597478 !important;
+  border-color: #597478 !important;
 }
 .btn-warning {
   background-color: #f3c649;
@@ -275,8 +283,8 @@ h6,
 }
 .btn-success-outline {
   background: none;
-  border-color: #5d7149;
-  color: #5d7149;
+  border-color: #4e6669;
+  color: #4e6669;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
@@ -284,14 +292,14 @@ h6,
 .btn-success-outline:active,
 .btn-success-outline.active {
   color: #ffffff;
-  background-color: #90a878;
-  border-color: #90a878;
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #90a878 !important;
-  border-color: #90a878 !important;
+  background-color: #7e9b9f !important;
+  border-color: #7e9b9f !important;
 }
 .btn-warning-outline {
   background: none;
@@ -337,7 +345,7 @@ h6,
   color: #c0a375 !important;
 }
 .text-success {
-  color: #90a878 !important;
+  color: #7e9b9f !important;
 }
 .text-info {
   color: #7e9b9f !important;
@@ -349,7 +357,7 @@ h6,
   color: #f28281 !important;
 }
 .alert-success {
-  background-color: #90a878;
+  background-color: #7e9b9f;
 }
 .alert-info {
   background-color: #7e9b9f;
@@ -394,7 +402,7 @@ h6,
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #d0dac6;
+  color: #c7d4d5;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -416,21 +424,23 @@ h6,
   opacity: 0 !important;
 }
 #slider-0 P {
-  color: #b8312f;
+  color: #000000;
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
 }
 #slider-0 B {
   color: #ffffff;
   font-size: 36px;
 }
 #slider-0 SPAN {
-  color: #2b0680;
-  font-size: 30px;
-  text-align: left;
+  color: #faaf40;
+  font-size: 46px;
+  text-align: right;
 }
 #slider-0 .btn {
   font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
@@ -448,6 +458,7 @@ h6,
 #menu-6 .link,
 #menu-6 .dropdown-item {
   color: #3d8eb9;
+  font-family: 'Roboto', sans-serif;
 }
 #menu-6 .link {
   font-size: 1.2rem;
@@ -464,19 +475,19 @@ h6,
 }
 #menu-6 .link[aria-expanded="true"],
 #menu-6 .dropdown-menu {
-  background: #0e0e0e;
+  background: #e6e6e6;
 }
 #menu-6 .nav-dropdown-sm .link:focus,
 #menu-6 .nav-dropdown-sm .link:hover,
 #menu-6 .nav-dropdown-sm .dropdown-item:focus,
 #menu-6 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+  background: #f7f7f7!important;
 }
 #menu-6 .navbar,
 #menu-6 .nav-dropdown-sm,
 #menu-6 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-6 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
+  background: #ffffff;
 }
 #menu-6 .bg-color.transparent .link {
   color: #3d8eb9;

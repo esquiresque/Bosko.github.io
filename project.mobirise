@@ -8,21 +8,21 @@
       "styling": {
         "primaryColor": "#c0a375",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
+        "successColor": "#7e9b9f",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -43,23 +43,25 @@
           "_name": "slider",
           "_styles": {
             "P": {
-              "color": "#b8312f",
+              "color": "#000000",
               "text-align": "left",
               "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-size": "32px"
             },
             "B": {
               "color": "#ffffff",
               "font-size": "36px"
             },
             "SPAN": {
-              "color": "#2b0680",
-              "font-size": "30px",
-              "text-align": "left"
+              "color": "#faaf40",
+              "font-size": "46px",
+              "text-align": "right"
             },
             ".btn": {
               "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           },
           "_params": {
@@ -69,39 +71,39 @@
             "timeout": "7",
             "slides": [
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/boskolanding-2000x1142.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sliderboskologo-2000x1027.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "overlayOpacity": "0.3",
                 "overlayColor": "#ffffff",
                 "contentAlign": "left",
                 "showTitle": false,
                 "title": "FULL SCREEN SLIDER",
-                "showText": true,
-                "text": "<span style=\"font-style: normal;\">Hello, I'm not Walt Disney.</span>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ukllkhjlkjhkj<br></a>   <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+                "showText": false,
+                "text": "<span style=\"font-style: normal;\">Hello,</span><br><span style=\"font-style: normal;\">I'm not</span><br><span style=\"font-style: normal;\">Walt Disney.</span>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ukllkhjlkjhkj<br></a>   "
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/hulksmashcantataweb01-2000x1928.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sliderboskohulk-2000x1027.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "overlayOpacity": "0.3",
-                "overlayColor": "#28324e",
-                "contentAlign": "center",
+                "overlayColor": "#ffffff",
+                "contentAlign": "right",
                 "showTitle": false,
                 "title": "FULL SCREEN SLIDER",
                 "showText": true,
-                "text": "But I do illustrate and design things. Would you like to see?",
+                "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;<br></p>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">But I do illustrate<br>and design things. Come see my gallery.</a>  "
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/calproughweb01-1-2000x1448.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -112,25 +114,25 @@
                 "showTitle": false,
                 "title": "FULL SCREEN SLIDER",
                 "showText": true,
-                "text": "Storyboards and Wireframes are part of my thing. Click and look if you like.",
+                "text": "<p><b>Storyboards and Wireframes are part of my thing.&nbsp;</b>&nbsp;&nbsp;&nbsp;</p>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">What's a Wireframe?</a>  "
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/boskono1png-2000x1027.png",
+                "image": "@PROJECT_PATH@/assets/images/sliderboskohatter-2000x1028.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "overlayOpacity": "0.3",
+                "overlayOpacity": "0.5",
                 "overlayColor": "#ffffff",
-                "contentAlign": "center",
+                "contentAlign": "right",
                 "showTitle": false,
                 "title": "FULL SCREEN SLIDER",
-                "showText": true,
-                "text": "<span style=\"font-style: normal;\"><b>Hello, I'm not Walt Disney.</b></span>",
+                "showText": false,
+                "text": "<span style=\"font-style: normal;\">Hello, </span><span style=\"font-style: normal;\">I'm</span>&nbsp;<span style=\"font-style: normal;\">not Walt Disney.</span>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am Bosko</a>  "
               }
             ],
             "fullScreen": true,
@@ -155,7 +157,9 @@
               "background-color": "#3d8eb9"
             },
             ".link, .dropdown-item": {
-              "color": "#3d8eb9"
+              "color": "#3d8eb9",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
               "font-size": "1.2rem"
@@ -167,13 +171,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#3d8eb9",
@@ -195,22 +199,25 @@
           "_name": "menu",
           "_anchor": "menu-6",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#ffffff",
             "fontSize": "1.2",
-            "fontName": {},
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
             "fontColor": "#3d8eb9",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/boskono2draft1-139x128.png",
+              "src": "@PROJECT_PATH@/assets/images/mbr-85x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -219,12 +226,18 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": "141",
+              "newWindow": false,
+              "color": "#000000",
+              "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Bosko Designs Home</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Gallery</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">About Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         }
       ]
     }
