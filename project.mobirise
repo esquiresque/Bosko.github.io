@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 11,
+    "uniqCompNum": 15,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -66,12 +66,28 @@
           },
           "_params": {
             "autoplay": true,
-            "paddingTop": "2",
-            "paddingBottom": "4",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "timeout": "7",
             "slides": [
               {
                 "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sliderboskohatter-2000x1028.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "overlayColor": "#ffffff",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "FULL SCREEN SLIDER",
+                "showText": false,
+                "text": "<span style=\"font-style: normal;\">Hello, </span><span style=\"font-style: normal;\">I'm</span>&nbsp;<span style=\"font-style: normal;\">not Walt Disney.</span>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am a Bosko!<br>And now, a little bit about me...</a>  "
+              },
+              {
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/sliderboskologo-2000x1027.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -101,41 +117,9 @@
                 "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;<br></p>",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">But I do illustrate<br>and design things. Come see my gallery.</a>  "
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/calproughweb01-1-2000x1448.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.4",
-                "overlayColor": "#ffffff",
-                "contentAlign": "right",
-                "showTitle": false,
-                "title": "FULL SCREEN SLIDER",
-                "showText": false,
-                "text": "<p>Storyboards and Wireframes are part of my thing.&nbsp;&nbsp;&nbsp;&nbsp;</p>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-twitter mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a>  "
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sliderboskohatter-2000x1028.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.5",
-                "overlayColor": "#ffffff",
-                "contentAlign": "right",
-                "showTitle": false,
-                "title": "FULL SCREEN SLIDER",
-                "showText": false,
-                "text": "<span style=\"font-style: normal;\">Hello, </span><span style=\"font-style: normal;\">I'm</span>&nbsp;<span style=\"font-style: normal;\">not Walt Disney.</span>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am a Bosko!<br>And now, a little bit about me...</a>  "
               }
             ],
-            "fullScreen": false,
+            "fullScreen": true,
             "bgColor": "#fff",
             "showBullets": true
           },
@@ -241,6 +225,19 @@
           },
           "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Home</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PORTFOLIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">About Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-e",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "Hi there, my name's Stephanie and I'm a visual designer. I specialise in illustration, wireframes, UI and storyboards. Think of my role as a cross between graphic design and story-telling. It's quite a useful set of skills that help folk to see their ideas appear. Maybe it's a website, phone app, business card, branding or advertising campaign.&nbsp;"
         }
       ]
     }
