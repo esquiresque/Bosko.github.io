@@ -3717,15 +3717,11 @@ button.close {
 }
 .carousel-inner > .carousel-item.active.right, .carousel-inner > .carousel-item.next {
     left: 0;
-    transform: translate3d(100%, 0px, 0px);
     opacity: 0;
-    z-index: 2;
 }
 .carousel-inner > .carousel-item.active.left, .carousel-inner > .carousel-item.prev {
     left: 0;
-    transform: translate3d(-100%, 0px, 0px);
     opacity: 0;
-    z-index: 2;
 }
 .carousel-inner > .carousel-item.active, .carousel-inner > .carousel-item.next.left, .carousel-inner > .carousel-item.prev.right {
     left: 0;
