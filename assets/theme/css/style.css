@@ -783,7 +783,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-table {
   display: table;
-  width: 100%; }
+  width: 100%;
+  background-color: rgba(68, 68, 68, 0.5); }
 
 .mbr-table-full {
   height: 100%;
