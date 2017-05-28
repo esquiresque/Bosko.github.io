@@ -3686,6 +3686,7 @@ button.close {
 }
 .carousel, .carousel-inner {
     position: relative;
+    z-index: 2000;
 }
 .popover-arrow {
     border-width: 11px;
