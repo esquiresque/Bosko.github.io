@@ -72,7 +72,7 @@
             "slides": [
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sliderboskohatter-1-2000x1028.png",
+                "image": "@PROJECT_PATH@/assets/images/sliderboskohatter-2-2000x1028.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -87,7 +87,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Shazam! I am a Bosko!<br>And now, a little bit about me...</a>  "
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/sliderboskologo-1-2000x1027.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -103,8 +103,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ukllkhjlkjhkj<br></a>   "
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sliderboskohulk-2000x1027.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/sliderboskohulk-2000x1027.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
