@@ -491,6 +491,7 @@ h6,
 #menu-6 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-6 .nav-dropdown-sm .dropdown-menu {
   background: #ffffff;
+  z-index: 5000;
 }
 #menu-6 .bg-color.transparent .link {
   color: #cccccc;
