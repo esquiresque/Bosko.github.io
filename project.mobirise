@@ -158,13 +158,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#648286"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#759498!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#7e9b9f"
             },
             ".bg-color.transparent .link": {
               "color": "#cccccc",
@@ -186,7 +186,7 @@
           "_name": "menu",
           "_anchor": "menu-6",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#7e9b9f",
             "fontSize": "1.2",
             "fontName": {
               "name": "Open Sans",
