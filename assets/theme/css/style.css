@@ -1177,7 +1177,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-slider .mbr-section {
   padding: 0;
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  transition-property:opacity; }
 
 .mbr-slider .mbr-table-cell {
   padding: 0; }
