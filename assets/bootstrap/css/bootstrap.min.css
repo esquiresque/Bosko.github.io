@@ -2499,7 +2499,7 @@ input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[t
     margin-top: -1px;
 }
 .navscreen{
-  width:1110px;
+  width:100%;
   height:93px;
   background:rgba(68,68,68,0.7);
   position: absolute;
