@@ -1065,7 +1065,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-slider .carousel-inner > .active,
 .mbr-slider .carousel-inner > .next,
 .mbr-slider .carousel-inner > .prev {
-  display: table; }
+  display: table;
+  transition-property: opacity;
+  opacity: 1;
+}
 
 .mbr-slider .carousel-control {
   position: absolute;
