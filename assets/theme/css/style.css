@@ -826,8 +826,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     background-color: #ccc; }
     
 .mbr-table li a:hover {
-    color: #fff;
-    transform: rotate(0deg); }
+    background-color: #888;}
 
 @media (min-width: 769px) {
   .mbr-table-md-up {
