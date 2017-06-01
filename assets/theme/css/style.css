@@ -5,6 +5,20 @@
 .container {
   position: relative; }
 
+.HomePin {
+width:280px;
+height:258px;
+position:absolute; }
+
+.HomePin h1 {
+color: #ccc; }
+
+.HomePin a {
+width: 280px;
+height: 258px;
+background-image: url("/assets/images/BoskoLogoPin.png");
+z-index: 5000; }
+
 .btn {
   margin-bottom: 0.5rem; }
   .btn + .btn {
