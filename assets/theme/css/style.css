@@ -804,6 +804,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     display: block; }
   .mbr-table-md-up .mbr-table-cell + .mbr-table-cell {
     padding-top: 40px; }
+    
+ .mbr-table li a {
+    transform: rotate(10deg); }
+    
+.mbr-table li a:hover {
+    color: #fff!important;
+    transform: rotate(0deg); }
 
 @media (min-width: 769px) {
   .mbr-table-md-up {
