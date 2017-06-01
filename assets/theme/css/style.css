@@ -17,6 +17,7 @@ color: #ccc; }
 width: 280px;
 height: 258px;
 background-image: url("/assets/images/BoskoLogoPin.png");
+position:absolute;
 z-index: 5000; }
 
 .btn {
