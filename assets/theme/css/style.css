@@ -819,11 +819,14 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-table-md-up .mbr-table-cell + .mbr-table-cell {
     padding-top: 40px; }
     
- .mbr-table li a {
-    transform: rotate(10deg); }
+.mbr-table li a {
+    transform: rotate(10deg);
+    transition-property: background-color;
+    transition-duration: 2s;
+    background-color: #ccc; }
     
 .mbr-table li a:hover {
-    color: #fff!important;
+    color: #fff;
     transform: rotate(0deg); }
 
 @media (min-width: 769px) {
