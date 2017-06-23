@@ -18,7 +18,9 @@ background-image: url("/assets/images/BoskoLogoPin1.png");
 position:relative;
 float:left;
 z-index: 5000;
-background-repeat: no-repeat; }
+background-repeat: no-repeat;
+transform: -15deg; 
+margin-left: 3em;  }
 
 .btn {
   margin-bottom: 0.5rem; }
