@@ -430,25 +430,25 @@ code, kbd {
     max-width: 100%;
     transition-property: opacity;
 }
-.span-slide {
+.span-slide01 {
     color: #000;
     font-size:1em;
     background-color: rgba(255,255,255,0.7);
 }
-.span-slide:first-child{
+.span-slide02{
+    color: #000;
+    font-size:1em;
+    background-color: rgba(255,255,255,0.7);
     width:15em;
     top:10em;
     right: 5em;
     position: absolute;
 }
-.span-slide:nth-child(2){
-    width:20em !important;
-    top:10em;
-    right: 5em;
-    position: absolute;
-}
-.span-slide:nth-child(3){
-    width:15em;
+.span-slide03{
+    color: #000;
+    font-size:1em;
+    background-color: rgba(255,255,255,0.7);
+    width:20em;
     top:10em;
     right: 5em;
     position: absolute;
