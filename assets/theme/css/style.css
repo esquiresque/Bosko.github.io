@@ -607,7 +607,8 @@ p.lead,
  */
 body {
   font-family: 'Raleway', sans-serif;
-  color: #232323; }
+  color: #232323;
+  background:-moz-radial-gradient(center, ellipse cover, rgba(237,245,247,1) 0%, rgba(237,245,247,1) 20%, rgba(227,239,242,1) 20%, rgba(227,239,242,1) 40%, rgba(218,233,237,1) 40%, rgba(218,233,237,1) 60%, rgba(206,225,229,1) 60%, rgba(206,225,229,1) 80%, rgba(192,218,224,1) 80%, rgba(192,218,224,1) 100%)}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
