@@ -430,6 +430,29 @@ code, kbd {
     max-width: 100%;
     transition-property: opacity;
 }
+.span-slide {
+    color: #000;
+    font-size:1em;
+    background-color: rgba(255,255,255,0.7);
+}
+.span-slide:first-child{
+    width:15em;
+    top:10em;
+    right: 5em;
+    position: absolute;
+}
+.span-slide:nth-child(2){
+    width:15em;
+    top:10em;
+    right: 5em;
+    position: absolute;
+}
+.span-slide:nth-child(3){
+    width:15em;
+    top:10em;
+    right: 5em;
+    position: absolute;
+}
 .figure, .img-thumbnail {
     display: inline-block;
 }
