@@ -434,6 +434,10 @@ code, kbd {
     color: #000;
     font-size:1em;
     background-color: rgba(255,255,255,0.7);
+    width:15em;
+    top:10em;
+    right: 5em;
+    position: absolute;
 }
 .span-slide02{
     color: #000;
