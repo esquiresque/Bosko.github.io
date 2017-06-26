@@ -4231,9 +4231,6 @@ a.bg-danger:focus, a.bg-danger:hover {
     top: -4em;
     left: -3.5em;
     }
-    .mbr-section-hero .carousel-item{
-        transform:scale(0.7);
-}
 }
 @media (min-width: 768px) {
 .pull-md-left {
