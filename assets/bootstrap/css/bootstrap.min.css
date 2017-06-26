@@ -4226,6 +4226,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-sm-down {
     display: none;
 }
+    .HomePin a{
+        width: 60%;
+    }
 }
 @media (min-width: 768px) {
 .pull-md-left {
