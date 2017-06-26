@@ -20,7 +20,8 @@ float:left;
 z-index: 5000;
 background-repeat: no-repeat;
 transform: -15deg; 
-margin-left: 1em;  }
+margin-left: 1em;
+top:-1.6em; }
 
 .btn {
   margin-bottom: 0.5rem; }
