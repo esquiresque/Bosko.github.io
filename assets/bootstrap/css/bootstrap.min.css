@@ -457,6 +457,11 @@ code, kbd {
     right: 5em;
     position: absolute;
 }
+.carousel-inner h1{
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: 100;
+}
 .figure, .img-thumbnail {
     display: inline-block;
 }
