@@ -2528,10 +2528,11 @@ input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[t
 }
 .navscreen{
   width:100%;
-  height:6rem;
+  height:2rem;
   background:#7e9b9f;
   position: absolute;
   float:left;
+  margin-top:2rem;
 }
 .navbar {
     padding: 0.5rem 1rem;
@@ -4233,9 +4234,6 @@ a.bg-danger:focus, a.bg-danger:hover {
     }
     .mbr-slider .mbr-section {
     background-size: 700px auto;
-    }
-    .navscreen{
-        height: 4rem;
     }
 }
 @media (min-width: 768px) {
