@@ -4234,6 +4234,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     .mbr-slider .mbr-section {
     background-size: 700px auto;
     }
+    .navscreen{
+        height: 4rem;
+    }
 }
 @media (min-width: 768px) {
 .pull-md-left {
