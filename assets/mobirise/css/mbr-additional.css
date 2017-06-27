@@ -448,6 +448,7 @@ h6,
 }
 #menu-6 .navbar-toggler {
   color: #cccccc;
+  top: -0.6em;
 }
 #menu-6 .close-icon::before,
 #menu-6 .close-icon::after {
