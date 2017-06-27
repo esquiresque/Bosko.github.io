@@ -458,9 +458,9 @@ code, kbd {
     position: absolute;
 }
 .carousel-inner h1{
-    font-family: "Montserrat";
-    font-size: 1em;
-    font-weight: 100;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
     display: inline;
 }
 .figure, .img-thumbnail {
