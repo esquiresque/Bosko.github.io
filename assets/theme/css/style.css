@@ -21,7 +21,8 @@ z-index: 5000;
 background-repeat: no-repeat;
 transform: -15deg; 
 margin-left: 1em;
-top:-1.6em; }
+top:-1.6em;
+z-index: 1 !important }
 
 .btn {
   margin-bottom: 0.5rem; }
