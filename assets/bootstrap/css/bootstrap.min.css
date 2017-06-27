@@ -430,7 +430,7 @@ code, kbd {
     max-width: 100%;
     transition-property: opacity;
 }
-.span-slide01 {
+.speech-slide01 {
     color: #000;
     font-size:1em;
     background-color: rgba(255,255,255,0.7);
@@ -439,7 +439,7 @@ code, kbd {
     right: 5em;
     position: absolute;
 }
-.span-slide02{
+.speech-slide02{
     color: #000;
     font-size:1em;
     background-color: rgba(255,255,255,0.7);
@@ -448,7 +448,7 @@ code, kbd {
     right: 5em;
     position: absolute;
 }
-.span-slide03{
+.speech-slide03{
     color: #000;
     font-size:1em;
     background-color: rgba(255,255,255,0.7);
