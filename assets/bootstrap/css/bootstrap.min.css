@@ -461,6 +461,7 @@ code, kbd {
     font-family: "Montserrat";
     font-size: 1em;
     font-weight: 100;
+    display: inline;
 }
 .figure, .img-thumbnail {
     display: inline-block;
