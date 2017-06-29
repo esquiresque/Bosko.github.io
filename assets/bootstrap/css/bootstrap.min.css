@@ -3929,6 +3929,7 @@ button.close {
 }
 .pull-xs-right {
     float: right;
+    top: -2.2em;
 }
 .pull-xs-none {
     float: none;
@@ -4235,7 +4236,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
     .HomePin a{
     transform: scale(0.6);
-    top: -2em !important;
+    top: -2.5em !important;
     left: -3.5em;
     }
     .mbr-slider .mbr-section {
@@ -4243,6 +4244,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     }
 }
 @media (min-width: 768px) {
+.nav { 
+    margin-top:-7.6em;
+}
 .pull-md-left {
     float: left;
 }
