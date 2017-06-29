@@ -51,9 +51,9 @@
   .navbar-dropdown.navbar-short .mbr-table-cell {
     height: 3.625rem; }
   .navbar-dropdown .navbar-close {
-    left: 0.6875rem;
+    left: 6.5em;
     position: fixed;
-    top: 0.75rem;
+    top: 2.5em;
     z-index: 5000; }
   .navbar-dropdown.opened {
     background: none !important; }
