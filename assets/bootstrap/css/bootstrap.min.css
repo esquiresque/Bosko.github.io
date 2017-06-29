@@ -4235,7 +4235,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
     .HomePin a{
     transform: scale(0.6);
-    top: -4em !important;
+    top: -2em !important;
     left: -3.5em;
     }
     .mbr-slider .mbr-section {
