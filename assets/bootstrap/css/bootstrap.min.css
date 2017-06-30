@@ -4274,6 +4274,11 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
 }
+@media (min-width: 800px){
+  .HomePin a{
+    transform:scale(0.8);
+  }
+}
 @media (max-width: 991px) {
 .hidden-md-down {
     display: none;
