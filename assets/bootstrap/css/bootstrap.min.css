@@ -4246,6 +4246,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 @media (min-width: 768px) {
 .nav { 
     margin-top:-7.6em;
+    .HomePin a {
+    left: -2em;
+    top: -1m;
+    transform: scale(0.8);
+}
 }
 .pull-md-left {
     float: left;
