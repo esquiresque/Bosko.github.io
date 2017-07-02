@@ -4204,9 +4204,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 @media (min-width: 360px) {
     .HomePin a{
-        transform:scale(0.8);
-        top:-1.3em;
-        left:-2.3em; }
+        transform:scale(0.6);
+        top:-2em;
+        left:-3em; }
 }
 }    
 @media (max-width: 543px) {
