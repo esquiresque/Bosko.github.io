@@ -4202,6 +4202,11 @@ a.bg-danger:focus, a.bg-danger:hover {
     top: 0;
     z-index: 1030;
 }
+@media (min-width: 360px) {
+    .HomePin a{
+        transform:scale(0.8);
+}
+}    
 @media (max-width: 543px) {
 .hidden-xs-down {
     display: none;
