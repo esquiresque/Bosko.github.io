@@ -4237,7 +4237,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
 .HomePin a {
-    transform:scale(0.8);
+    transform:scale(0.6);
 }
 }
 @media (max-width: 767px) {
