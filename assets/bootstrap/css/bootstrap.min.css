@@ -4234,11 +4234,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-sm-down {
     display: none;
 }
-    .HomePin a{
+   /* .HomePin a{
     transform: scale(0.6);
     top: -2.5em !important;
     left: -3.5em;
-    }
+    }*/
     .mbr-slider .mbr-section {
     background-size: 700px auto;
     }
