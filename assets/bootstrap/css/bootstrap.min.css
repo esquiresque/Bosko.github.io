@@ -4229,6 +4229,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-sm-up {
     display: none;
 }
+.HomePin a {
+    transform:scale(0.8);
+}
 }
 @media (max-width: 767px) {
 .hidden-sm-down {
