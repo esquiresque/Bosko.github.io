@@ -4247,11 +4247,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 .nav { 
     margin-top:-7.6em;
     }
-    .HomePin a {
+   /* .HomePin a {
     left: -2em;
     top: -1em;
     transform: scale(0.8);
-}
+}*/
 .pull-md-left {
     float: left;
 }
