@@ -4353,6 +4353,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 .pull-xl-left {
     float: left;
 }
+    div.carousel-item{
+        background-size:auto;
+}
 .pull-xl-right {
     float: right;
 }
