@@ -430,6 +430,11 @@ code, kbd {
     max-width: 100%;
     transition-property: opacity;
 }
+.speech-slide01 h1 {
+    font-family: 'Life Savers', cursive;
+    font-weight: 700;
+    font-size:1.3em;
+}
 .speech-slide01 {
     color: #fff;
     font-family: 'Life Savers', cursive;
