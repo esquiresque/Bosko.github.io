@@ -436,10 +436,11 @@ code, kbd {
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
-    right: 5em;
     position: absolute;
     text-align: right;
-    padding: 0.5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 .speech-slide02{
     color: #fff;
@@ -447,10 +448,11 @@ code, kbd {
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
-    right: 5em;
     position: absolute;
     text-align: right;
-    padding: 0.5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 .speech-slide03{
     color: #fff;
@@ -458,10 +460,11 @@ code, kbd {
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
-    right: 5em;
     position: absolute;
     text-align: right;
-    padding: 0.5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 .carousel-inner h1{
     font-family: "Raleway",sans-serif;
