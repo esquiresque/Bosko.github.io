@@ -4223,6 +4223,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     z-index: 1030;
 }
 @media (min-width: 360px) {
+    div.carousel-item{
+        background-size:60%;
+}
     .HomePin a{
         transform:scale(0.6);
         top:-2em;
