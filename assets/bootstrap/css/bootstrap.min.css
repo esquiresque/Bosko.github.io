@@ -431,9 +431,9 @@ code, kbd {
     transition-property: opacity;
 }
 .speech-slide01 h1 {
-    font-family: 'Life Savers', cursive;
-    font-weight: 700;
-    font-size:1.3em;
+    font-family: 'Life Savers', cursive !important;
+    font-weight: 700 !important;
+    font-size:1.3em !important;
 }
 .speech-slide01 {
     color: #fff;
