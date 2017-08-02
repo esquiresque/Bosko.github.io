@@ -431,31 +431,37 @@ code, kbd {
     transition-property: opacity;
 }
 .speech-slide01 {
-    color: #000;
+    color: #fff;
     font-size:1em;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(83, 102, 104, 0.7);
     width:15em;
     top:10em;
     right: 5em;
     position: absolute;
+    text-align: right;
+    padding: 0.5em;
 }
 .speech-slide02{
-    color: #000;
+    color: #fff;
     font-size:1em;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(83, 102, 104, 0.7);
     width:15em;
     top:10em;
     right: 5em;
     position: absolute;
+    text-align: right;
+    padding: 0.5em;
 }
 .speech-slide03{
-    color: #000;
+    color: #fff;
     font-size:1em;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(83, 102, 104, 0.7);
     width:20em;
     top:10em;
     right: 5em;
     position: absolute;
+    text-align: right;
+    padding: 0.5em;
 }
 .carousel-inner h1{
     font-family: "Raleway",sans-serif;
