@@ -434,7 +434,7 @@ code, kbd {
     color: #fff;
     font-size:1em;
     background-color: rgba(83, 102, 104, 0.7);
-    width:15em;
+    width:100%;
     top:10em;
     right: 5em;
     position: absolute;
@@ -445,7 +445,7 @@ code, kbd {
     color: #fff;
     font-size:1em;
     background-color: rgba(83, 102, 104, 0.7);
-    width:15em;
+    width:100%;
     top:10em;
     right: 5em;
     position: absolute;
@@ -456,7 +456,7 @@ code, kbd {
     color: #fff;
     font-size:1em;
     background-color: rgba(83, 102, 104, 0.7);
-    width:20em;
+    width:100%;
     top:10em;
     right: 5em;
     position: absolute;
