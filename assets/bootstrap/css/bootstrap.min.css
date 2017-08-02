@@ -432,7 +432,9 @@ code, kbd {
 }
 .speech-slide01 {
     color: #fff;
-    font-size:1em;
+    font-family: 'Life Savers', cursive;
+    font-weight: 700;
+    font-size:1.3em;
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
@@ -444,7 +446,9 @@ code, kbd {
 }
 .speech-slide02{
     color: #fff;
-    font-size:1em;
+    font-family: 'Life Savers', cursive;
+    font-weight: 700;
+    font-size:1.3em;
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
@@ -456,7 +460,9 @@ code, kbd {
 }
 .speech-slide03{
     color: #fff;
-    font-size:1em;
+    font-family: 'Life Savers', cursive;
+    font-weight: 700;
+    font-size:1.3em;
     background-color: rgba(83, 102, 104, 0.7);
     width:100%;
     top:10em;
