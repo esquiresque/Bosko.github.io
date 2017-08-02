@@ -4341,12 +4341,15 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1279px) {
 .hidden-lg-down {
     display: none;
 }
+        div.carousel-item{
+        background-size:100em;
 }
-@media (min-width: 1200px) {
+}
+@media (min-width: 1280px) {
 .pull-xl-left {
     float: left;
 }
