@@ -4346,15 +4346,12 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
         div.carousel-item{
-        background-size:100em;
+        background-size:90em;
 }
 }
 @media (min-width: 1280px) {
 .pull-xl-left {
     float: left;
-}
-    div.carousel-item{
-        background-size:auto;
 }
 .pull-xl-right {
     float: right;
