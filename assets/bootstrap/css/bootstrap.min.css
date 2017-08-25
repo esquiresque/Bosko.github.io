@@ -4346,7 +4346,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
         div.carousel-item{
-        width:80%;
+        width:100em;
 }
 }
 @media (min-width: 1280px) {
