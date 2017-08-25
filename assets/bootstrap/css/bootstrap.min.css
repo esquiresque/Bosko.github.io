@@ -4345,9 +4345,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-lg-down {
     display: none;
 }
- /*       div.carousel-item{
+        div.carousel-item{
         width:100em;
-}*/
+}
 }
 @media (min-width: 1280px) {
 .pull-xl-left {
