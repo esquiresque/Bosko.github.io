@@ -4341,12 +4341,12 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
 }
-@media (max-width: 1279px) {
+@media (min-width:992px) and (max-width: 1279px) {
 .hidden-lg-down {
     display: none;
 }
         div.carousel-item{
-        width:100em;
+        background-size: 1150px;
 }
 }
 @media (min-width: 1280px) {
