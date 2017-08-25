@@ -4346,7 +4346,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
         div.carousel-item{
-        width:100%;
+        width:80%;
 }
 }
 @media (min-width: 1280px) {
@@ -4369,30 +4369,6 @@ a.bg-danger:focus, a.bg-danger:hover {
     text-align: center;
 }
 .hidden-xl-up {
-    display: none;
-}
-}
-@media print {
-.visible-print-block {
-    display: block;
-}
-}
-.visible-print-inline {
-    display: none;
-}
-@media print {
-.visible-print-inline {
-    display: inline;
-}
-}
-.visible-print-inline-block {
-    display: none;
-}
-@media print {
-.visible-print-inline-block {
-    display: inline-block;
-}
-.hidden-print {
     display: none;
 }
 }
