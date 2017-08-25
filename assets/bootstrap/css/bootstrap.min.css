@@ -4306,12 +4306,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-md-up {
     display: none;
 }
-}
-@media (min-width: 800px) and (max-width: 991px){
-  div.carousel-item{
-        background-size: 850px;
-}
-    .HomePin a{
+.HomePin a{
     transform:scale(0.8);
     left: -1em;
   }
