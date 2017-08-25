@@ -4346,7 +4346,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
         div.carousel-item{
-        background-size:90em;
+        width:100%;
 }
 }
 @media (min-width: 1280px) {
