@@ -4307,8 +4307,11 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none;
 }
 }
-@media (min-width: 800px){
-  .HomePin a{
+@media (min-width: 800px) and (max-width: 991px){
+  div.carousel-item{
+        background-size: 850px;
+}
+    .HomePin a{
     transform:scale(0.8);
     left: -1em;
   }
