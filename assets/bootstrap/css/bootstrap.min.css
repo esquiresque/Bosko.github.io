@@ -4315,6 +4315,9 @@ a.bg-danger:focus, a.bg-danger:hover {
 .hidden-md-down {
     display: none;
 }
+    div.carousel-item{
+        background-size: 55em;}
+}
 }
 @media (min-width: 992px) {
 .pull-lg-left {
