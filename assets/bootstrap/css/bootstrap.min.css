@@ -437,7 +437,7 @@ code, kbd {
 }
 @-webkit-keyframes fade-in {
 0% { opacity: 0;}
-75% {opacity: 0;}
+30% {opacity: 1;}
 100% {opacity: 1;}
 }
 
@@ -454,7 +454,8 @@ code, kbd {
     padding-right: 5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    -webkit-animation: fade-in 3s ease-in;
+    -webkit-animation: fade-in 1s ease-in;
+    animation-duration: 10s;
     opacity:0;
 }
 .speech-slide02{
