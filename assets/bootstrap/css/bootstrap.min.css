@@ -435,6 +435,11 @@ code, kbd {
     font-weight: 700 !important;
     font-size:1.1em !important;
 }
+@-webkit-keyframes speech-slide {
+0% { opacity: 0;}
+100% {opacity: 1;}
+}
+
 .speech-slide01 {
     color: #fff;
     font-family: 'Life Savers', cursive;
@@ -448,6 +453,8 @@ code, kbd {
     padding-right: 5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+     -webkit-animation: fade-in 2s ease-in;
+    -webkit-animation-delay: 2.5s;
 }
 .speech-slide02{
     color: #fff;
