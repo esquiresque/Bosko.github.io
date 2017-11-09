@@ -437,7 +437,7 @@ code, kbd {
 }
 @-webkit-keyframes speech-slide01 {
 0% { opacity: 0;}
-85%{ opacity: 0.5;}
+85% {opacity: 0.5;}
 100% {opacity: 1;}
 }
 
@@ -454,9 +454,9 @@ code, kbd {
     padding-right: 5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-     -webkit-animation: fade-in 1s ease-in;
+    -webkit-animation: fade-in 1s ease-in;
     -webkit-animation-delay: 2.5s;
-    opacity:1;
+    opacity:0;
 }
 .speech-slide02{
     color: #fff;
