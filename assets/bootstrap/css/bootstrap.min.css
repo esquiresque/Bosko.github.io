@@ -456,7 +456,7 @@ code, kbd {
     padding-bottom: 0.5em;
      -webkit-animation: fade-in 1s ease-in;
     -webkit-animation-delay: 2.5s;
-    opacity:0;
+    opacity:1;
 }
 .speech-slide02{
     color: #fff;
