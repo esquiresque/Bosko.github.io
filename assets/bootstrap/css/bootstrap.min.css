@@ -479,6 +479,11 @@ code, kbd {
     padding-right: 5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    -webkit-animation: fade-in 1s ease-in;
+    -moz-animation: fade-in 1s ease-in;
+    animation-duration: 10s;
+    -moz-animation-duration: 10s;
+    opacity:0;
 }
 .speech-slide03{
     color: #fff;
@@ -493,6 +498,11 @@ code, kbd {
     padding-right: 5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    -webkit-animation: fade-in 1s ease-in;
+    -moz-animation: fade-in 1s ease-in;
+    animation-duration: 10s;
+    -moz-animation-duration: 10s;
+    opacity:0;
 }
 .carousel-inner h1{
     font-family: "Raleway",sans-serif;
