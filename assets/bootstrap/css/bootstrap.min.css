@@ -441,6 +441,12 @@ code, kbd {
 100% {opacity: 1;}
 }
 
+@-moz-keyframes fade-in {
+0% { opacity: 0;}
+30% {opacity: 1;}
+100% {opacity: 1;}
+}
+
 .speech-slide01 {
     color: #fff;
     font-family: 'Life Savers', cursive;
