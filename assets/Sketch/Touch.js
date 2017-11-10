@@ -1,43 +1,37 @@
-function simulateTouchEvents(oo,bIgnoreChilds)
-{
- if( !$(oo)[0] )
-  { return false; }
-
- if( !window.__touchTypes )
- {
-   window.__touchTypes  = {touchstart:'mousedown',touchmove:'mousemove',touchend:'mouseup'};
-   window.__touchInputs = {INPUT:1,TEXTAREA:1,SELECT:1,OPTION:1,'input':1,'textarea':1,'select':1,'option':1};
- }
-
-$(oo).bind('touchstart touchmove touchend', function(ev)
-{
-    var bSame = (ev.target == this);
-    if( bIgnoreChilds && !bSame )
-     { return; }
-
-    var b = (!bSame && ev.target.__ajqmeclk), // Get if object is already tested or input type
-        e = ev.originalEvent;
-    if( b === true || !e.touches || e.touches.length > 1 || !window.__touchTypes[e.type]  )
-     { return; } //allow multi-touch gestures to work
-
-    var oEv = ( !bSame && typeof b != 'boolean')?$(ev.target).data('events'):false,
-        b = (!bSame)?(ev.target.__ajqmeclk = oEv?(oEv['click'] || oEv['mousedown'] || oEv['mouseup'] || oEv['mousemove']):false ):false;
-
-    if( b || window.__touchInputs[ev.target.tagName] )
-     { return; } //allow default clicks to work (and on inputs)
-
-    // https://developer.mozilla.org/en/DOM/event.initMouseEvent for API
-    var touch = e.changedTouches[0], newEvent = document.createEvent("MouseEvent");
-    newEvent.initMouseEvent(window.__touchTypes[e.type], true, true, window, 1,
-            touch.screenX, touch.screenY,
-            touch.clientX, touch.clientY, false,
-            false, false, false, 0, null);
-
-    touch.target.dispatchEvent(newEvent);
-    e.preventDefault();
-    ev.stopImmediatePropagation();
-    ev.stopPropagation();
-    ev.preventDefault();
-});
- return true;
-}; 
+! function(a) {
+  function f(a, b) {
+    if (!(a.originalEvent.touches.length > 1)) {
+      a.preventDefault();
+      var c = a.originalEvent.changedTouches[0],
+        d = document.createEvent("MouseEvents");
+      d.initMouseEvent(b, !0, !0, window, 1, c.screenX, c.screenY, c.clientX, c.clientY, !1, !1, !1, !1, 0, null), a.target.dispatchEvent(d)
+    }
+  }
+  if (a.support.touch = "ontouchend" in document, a.support.touch) {
+    var e, b = a.ui.mouse.prototype,
+      c = b._mouseInit,
+      d = b._mouseDestroy;
+    b._touchStart = function(a) {
+      var b = this;
+      !e && b._mouseCapture(a.originalEvent.changedTouches[0]) && (e = !0, b._touchMoved = !1, f(a, "mouseover"), f(a, "mousemove"), f(a, "mousedown"))
+    }, b._touchMove = function(a) {
+      e && (this._touchMoved = !0, f(a, "mousemove"))
+    }, b._touchEnd = function(a) {
+      e && (f(a, "mouseup"), f(a, "mouseout"), this._touchMoved || f(a, "click"), e = !1)
+    }, b._mouseInit = function() {
+      var b = this;
+      b.element.bind({
+        touchstart: a.proxy(b, "_touchStart"),
+        touchmove: a.proxy(b, "_touchMove"),
+        touchend: a.proxy(b, "_touchEnd")
+      }), c.call(b)
+    }, b._mouseDestroy = function() {
+      var b = this;
+      b.element.unbind({
+        touchstart: a.proxy(b, "_touchStart"),
+        touchmove: a.proxy(b, "_touchMove"),
+        touchend: a.proxy(b, "_touchEnd")
+      }), d.call(b)
+    }
+  }
+}(jQuery);
