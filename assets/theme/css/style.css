@@ -823,7 +823,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     display: block; }
   .mbr-table-md-up .mbr-table-cell + .mbr-table-cell {
     padding-top: 40px; }
-    
+   
+.sketch{
+	color: #fff;
+	transform: rotate (2.2deg) scale(1.1);
+}	
 .mbr-table li a {
     transition: all 0.3s ease 0s !important;
 }
