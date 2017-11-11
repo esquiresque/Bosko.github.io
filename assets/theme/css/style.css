@@ -479,6 +479,7 @@ div.lead.sketchnote {
     font-size: 1.2em;
     font-weight:700;
     text-align:center;
+    left:0px;
 }
 
 .sketchnote p {
