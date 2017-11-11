@@ -477,7 +477,8 @@ div.lead.sketchnote {
     color: #fff;
     font-family: 'Life Savers', cursive;
     font-size: 1.2em;
-    font-weight:700
+    font-weight:700;
+    text-align:center;
 }
 
 .sketchnote p {
