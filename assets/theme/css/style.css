@@ -470,6 +470,21 @@ p.lead,
 .article .lead p, .article .lead ul, .article .lead ol, .article .lead pre, .article .lead blockquote {
   margin-bottom: 0; }
 
+div.lead.sketchnote {
+    background-color: #7e9b9f;
+    position: absolute;
+    top: 4em;
+    color: #fff;
+    font-family: 'Life Savers', cursive;
+    font-size: 1.2em;
+    font-weight:700
+}
+
+.sketchnote p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 .lead {
   font-size: 1.07rem;
   font-weight: 300; }
