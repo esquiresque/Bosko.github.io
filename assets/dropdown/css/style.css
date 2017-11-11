@@ -98,6 +98,14 @@
 .dropdown-menu .dropdown-item:focus {
   outline: 0; }
 
+.navlight{
+    transform: rotate(-2.2deg) scale(1.1);
+    font-size: 1.2rem;
+    color: #E3EFF2;
+    font-family: "Montserrat";
+    padding:32px;
+    
+}
 .nav-dropdown {
   display: table !important;
   font-family: "Montserrat";
