@@ -108,6 +108,7 @@ transform:rotate(-45deg);
 opacity: 1;
 top: 0;
 bottom: 0;
+z-index:5001;
 }
 
 .lightbox-target:target img {
