@@ -494,6 +494,7 @@ div.lead.sketchnote {
     font-size: inherit;
     font-weight: inherit;
     margin-bottom:0px;
+    text-shadow:1px 0px 1px #555;
 }
 
 .lead {
