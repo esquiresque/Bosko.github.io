@@ -480,7 +480,7 @@ p.lead,
 
 @keyframes sketchnote{
 	0%   { opacity: 1; }
-	50%   { opacity: 1; }
+	75%   { opacity: 1; }
   	100% { opacity: 0; }
 }
 	
@@ -495,8 +495,7 @@ div.lead.sketchnote {
     text-align:center;
     left:0px;
     opacity:0;
-    animation: sketchnote 4s;
-    animation-delay: 5s;
+    animation: sketchnote 7s;
     animation-iteration-count: initial;
 }
 
