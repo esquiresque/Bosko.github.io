@@ -478,7 +478,7 @@ p.lead,
     margin-bottom: 160px;
 	min-height: 2em;}
 
-@keyframes .lead.sketchnote{
+@keyframes sketchnote{
 	from {
         opacity:1;
     }
@@ -497,7 +497,7 @@ div.lead.sketchnote {
     font-weight:700;
     text-align:center;
     left:0px;
-    animation: .lead.sketchnote 4s;
+    animation: sketchnote 4s;
 }
 
 .sketchnote p {
