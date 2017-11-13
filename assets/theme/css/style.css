@@ -478,6 +478,15 @@ p.lead,
     margin-bottom: 160px;
 	min-height: 2em;}
 
+@keyframes sketchnote{
+	from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+	
 div.lead.sketchnote {
     background-color: rgba(70, 84, 86, 0.7);
     position: absolute;
@@ -488,8 +497,8 @@ div.lead.sketchnote {
     font-weight:700;
     text-align:center;
     left:0px;
-    opacity:1;
-    transition: opacity ease-out 3s;
+    opacity:0;
+    transition: all 3s ease-out;
     transition-delay: 3s;
 }
 
