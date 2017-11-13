@@ -479,12 +479,8 @@ p.lead,
 	min-height: 2em;}
 
 @keyframes sketchnote{
-	from {
-        opacity:1;
-    }
-    to {
-        opacity:0;
-    }
+	0%   { opacity: 1; }
+  	100% { opacity: 1; }
 }
 	
 div.lead.sketchnote {
@@ -499,6 +495,7 @@ div.lead.sketchnote {
     left:0px;
     opacity:0;
     animation: sketchnote 4s;
+    animation-delay: 5s;
 }
 
 .sketchnote p {
