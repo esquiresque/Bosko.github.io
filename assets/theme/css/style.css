@@ -495,8 +495,7 @@ div.lead.sketchnote {
     text-align:center;
     left:0px;
     opacity:0;
-    animation: sketchnote 7s;
-    /*animation-iteration-count: initial;*/
+    animation: sketchnote 5s;
 }
 
 .sketchnote p {
