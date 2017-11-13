@@ -471,6 +471,13 @@ p.lead,
 .article .lead p, .article .lead ul, .article .lead ol, .article .lead pre, .article .lead blockquote {
   margin-bottom: 0; }
 
+.snotecontainer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 160px;
+	min-height: 2em;}
+
 div.lead.sketchnote {
     background-color: #7e9b9f;
     position: absolute;
