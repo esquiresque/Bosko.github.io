@@ -497,6 +497,7 @@ div.lead.sketchnote {
     opacity:0;
     animation: sketchnote 4s;
     animation-delay: 5s;
+    animation-iteration-count: initial;
 }
 
 .sketchnote p {
