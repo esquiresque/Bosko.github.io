@@ -488,7 +488,7 @@ div.lead.sketchnote {
     font-weight:700;
     text-align:center;
     left:0px;
-    opacity:0;
+    opacity:1;
     transition: opacity ease-out 3s;
     transition-delay: 3s;
 }
