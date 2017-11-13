@@ -479,7 +479,7 @@ p.lead,
 	min-height: 2em;}
 
 div.lead.sketchnote {
-    background-color: #7e9b9f;
+    background-color: rgba(70, 84, 86, 0.7);
     position: absolute;
     top: 4em;
     color: #fff;
