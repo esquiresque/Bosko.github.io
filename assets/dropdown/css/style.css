@@ -53,13 +53,13 @@
   .navbar-dropdown .navbar-close {
     left: 6.5em;
     position: fixed;
-    top: 2.5em;
-    z-index: 5000; }
+    top: 2.5em;}
   .navbar-dropdown.opened {
     background: none !important; }
     .navbar-dropdown.opened .navbar-brand,
     .navbar-dropdown.opened .navbar-toggler {
-      display: none; }
+      display: none;
+    z-index:5001;}
   .navbar-dropdown .hamburger-icon {
     content: "";
     width: 16px;
