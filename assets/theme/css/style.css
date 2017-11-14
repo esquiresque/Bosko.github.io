@@ -476,7 +476,9 @@ p.lead,
     width: 100%;
     bottom: 0;
     margin-bottom: 160px;
-	min-height: 2em;}
+    min-height: 2em;
+    z-index:5002;
+}
 
 @keyframes sketchnote{
 	0%   { opacity: 1; }
