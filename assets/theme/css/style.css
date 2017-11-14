@@ -497,6 +497,7 @@ div.lead.sketchnote {
     text-align:center;
     left:0px;
     opacity:0;
+    visibility: hidden;
     animation: sketchnote 5s;
 }
 
