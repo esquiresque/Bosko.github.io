@@ -448,7 +448,7 @@ h6,
 }
 #menu-6 .navbar-toggler {
   color: #cccccc;
-  z-index:5002;
+  z-index:5003;
 }
 #menu-6 .close-icon::before,
 #menu-6 .close-icon::after {
@@ -487,7 +487,7 @@ h6,
 #menu-6 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-6 .nav-dropdown-sm .dropdown-menu {
   background: rgba(104, 132, 135, 0.9) none repeat scroll 0 0;
-  z-index:5000;
+  z-index:5002 !important;
   top:3em;
 }
 #menu-6 .bg-color.transparent .link {
