@@ -159,29 +159,28 @@ z-index: 5002;
 }
   
 /******************************Carousel Thingymajigs******************************/
-.slick-prev
+.slick-prev, .slick-next
 {
 display: inline-block;
 background-color: #ccc;
+color: #fff;
 border: none;
 font-weight: bold;
 font-size: 1.5rem;
-letter-spacing: 2;
-transform: scale(1.5);
-left: 15rem;
 position: absolute;
+top:5rem;
 cursor: pointer;
 z-index: 5010;
-color: #fff;
-display: inline-block;
-background-color: #ccc;
-border: navajowhite;
-font-weight: bold;
-font-size: 1.5rem;
+
+}
+.slick-prev
+{
 left: 15rem;
-position: absolute;
-cursor: pointer;
-z-index: 5010;
+}
+
+.slick-prev
+{
+right: 15rem;
 }
 
 color: #fff;
