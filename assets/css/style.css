@@ -37,7 +37,7 @@ a
   background-color:transparent;
 }
 
-/*---HEADER & NAV BAR---*/
+/******************************HEADER & NAV BAR******************************/
 
 .NavContainer
 {
@@ -147,17 +147,6 @@ z-index: 5002;
 .onclick-menu ul li a{
   color:#E3EFF2;
 }
-/*.MenuItem
-{
-  display: block;
-  margin-left: 0;
-  padding-left: 0;
-  float: none;
-  font-family: "Montserrat";
-  font-size: 0.75rem;
-  list-style: outside none none;
-  font-size: 1.300rem;
-}*/
 
 .MenuLink
 {
@@ -169,7 +158,34 @@ z-index: 5002;
   transition: all 0.3s ease 0s !important;
 }
   
-/*---Actions---*/
+/******************************Carousel Thingymajigs******************************/
+.slick-prev
+{
+display: inline-block;
+background-color: #ccc;
+border: none;
+font-weight: bold;
+font-size: 1.5rem;
+letter-spacing: 2;
+transform: scale(1.5);
+left: 15rem;
+position: absolute;
+cursor: pointer;
+z-index: 5010;
+color: #fff;
+display: inline-block;
+background-color: #ccc;
+border: navajowhite;
+font-weight: bold;
+font-size: 1.5rem;
+left: 15rem;
+position: absolute;
+cursor: pointer;
+z-index: 5010;
+}
+
+color: #fff;
+/******************************Actions******************************/
 [role="button"], a, area, button, input, label, select, summary, textarea
 {
   touch-action: manipulation;
