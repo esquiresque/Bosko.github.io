@@ -1,1 +1,191 @@
+/*---ELEMENT DEFAULTS---*/
 
+*
+{
+margin:0;
+padding:0;
+}
+
+html
+{
+  height:100%
+}
+body
+{
+  background:-moz-radial-gradient(center, ellipse cover, rgba(237,245,247,1)
+    0%, rgba(237,245,247,1) 20%, rgba(227,239,242,1) 20%, rgba(227,239,242,1) 40%, rgba(218,233,237,1)
+    40%, rgba(218,233,237,1) 60%, rgba(206,225,229,1) 60%, rgba(206,225,229,1) 80%, rgba(192,218,224,1)
+    80%, rgba(192,218,224,1) 100%);
+  background-repeat:no-repeat;
+  background-position: cover;
+  background-size: cover;
+  font-family:'Raleway', sans-serif;
+  font-size:1rem;
+  line-height: 1.5;
+}
+
+li
+{
+  list-style:none;
+}
+
+a
+{
+  text-decoration:none;
+  background-color:transparent;
+}
+
+/*---HEADER & NAV BAR---*/
+
+.NavContainer
+{
+  background: #7e9b9f;
+  height: 2rem;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.HomePin
+{
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  float: left;
+}
+
+.HomePin:hover
+{
+   width: 8rem;
+  height: 8rem;
+  position: absolute;
+  float: left;
+  -webkit-animation: 0.5s ease-in lubdup;
+  -moz-animation: 0.5s ease-in lubdup;
+}
+@keyframes lubdup{
+  0%{transform: scale(1.05);}
+  33%{transform: scale(1);}
+  66%{transform: scale(1.05);}
+  100%{transform: scale(1);}
+}
+
+.HomePin a
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/BoskoPin.png");
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-left: 1em;
+  z-index: 5001;
+  /*transform: scale(0.8);*/
+}
+
+.HomePin a:active{
+  -webkit-animation: 0.5s ease-in lubdup;
+  -moz-animation: 0.5s ease-in lubdup;
+}
+
+.NavSection
+{
+   Height: 4em;
+   top:2em;
+}
+
+.NavIcon
+  {
+  background-image: url('https:/esquiresque.github.io/assets/images/MenuBtn.png');
+width: 2.5em;
+height: 4.5em;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+float: right;
+position: relative;
+top: 2em;
+right: 2em;
+}
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+}
+.onclick-menu:before {
+    content: "";
+}
+.onclick-menu:hover {
+    cursor: pointer;
+}
+.onclick-menu:focus .onclick-menu-content {
+    visibility: visible;
+    opacity:1;
+    transition: opacity 0.5s ease-in;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    background:rgba(104, 132, 135, 0.9) none repeat scroll 0 0;
+    right:0rem;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    opacity:0;
+}
+.onclick-menu ul li{
+  width: 10rem;
+  height: 4rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  text-align: center;
+}
+.onclick-menu ul li a{
+  color:#E3EFF2;
+}
+/*.MenuItem
+{
+  display: block;
+  margin-left: 0;
+  padding-left: 0;
+  float: none;
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  list-style: outside none none;
+  font-size: 1.300rem;
+}*/
+
+.MenuLink
+{
+  border-top: 1px dotted rgba(255, 255, 255, 0.1);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0.875rem 2.4rem 0.875rem 1.5625rem;
+  white-space: normal;
+  transition: all 0.3s ease 0s !important;
+}
+  
+/*---Actions---*/
+[role="button"], a, area, button, input, label, select, summary, textarea
+{
+  touch-action: manipulation;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]
+{
+  cursor: pointer;
+}
+
+button, select
+{
+  text-transform: none;
+}
+
+button {
+  overflow: visible;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
