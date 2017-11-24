@@ -162,8 +162,8 @@ z-index: 5002;
 .slick-prev, .slick-next
 {
 display: inline-block;
-background-color: #ccc;
-color: #fff;
+background-color: transparent;
+color: #7E9B9F;
 border: none;
 font-weight: bold;
 font-size: 1.5rem;
@@ -175,12 +175,14 @@ z-index: 5010;
 }
 .slick-prev
 {
-right: 15rem;
+right: 2.5rem;
+top: 10rem;
 }
 
 .slick-next
 {
-left: 15rem;
+right: 2.5rem;
+top: 15rem;
 }
 
 color: #fff;
