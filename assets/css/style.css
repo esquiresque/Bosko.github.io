@@ -175,12 +175,12 @@ z-index: 5010;
 }
 .slick-prev
 {
-left: 15rem;
+right: 15rem;
 }
 
 .slick-prev
 {
-right: 15rem;
+left: 15rem;
 }
 
 color: #fff;
