@@ -108,6 +108,7 @@ float: right;
 position: relative;
 top: 2em;
 right: 2em;
+z-index: 5002;
 }
 
 .onclick-menu {
