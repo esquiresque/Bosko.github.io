@@ -173,6 +173,7 @@ position: absolute;
 top:5rem;
 cursor: pointer;
 z-index: 5010;
+visibility: hidden;
 
 }
 /*.slick-prev
