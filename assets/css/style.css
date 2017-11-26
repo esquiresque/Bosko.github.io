@@ -125,7 +125,7 @@ z-index: 5010;
 .onclick-menu:focus .onclick-menu-content {
     visibility: visible;
     opacity:1;
-    transition: opacity 0.5s ease-in;
+    -webkit-transition: opacity 0.5s ease-in;
 }
 .onclick-menu-content {
     position: absolute;
