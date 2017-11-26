@@ -115,19 +115,22 @@ z-index: 5010;
 .onclick-menu {
     position: relative;
     display: inline-block;
-  -moz-user-select: auto;
+  -moz-user-select: all;
 }
 .onclick-menu:before {
     content: "";
+  -moz-user-select: all;
 }
 .onclick-menu:hover {
     cursor: pointer;
+  -moz-user-select: all;
 }
 .onclick-menu:focus .onclick-menu-content {
     visibility: visible;
     opacity:1;
     -webkit-transition: opacity 0.5s ease-in;
     -moz-transition: opacity 0.5s ease-in;
+  -moz-user-select: all;
 }
 .onclick-menu-content {
     position: absolute;
@@ -138,6 +141,7 @@ z-index: 5010;
     -moz-transition: visibility 0.5s;
     opacity:0;
     z-index: inherit;
+  -moz-user-select: all;
 }
 .onclick-menu ul li{
   width: 10rem;
