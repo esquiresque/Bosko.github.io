@@ -136,6 +136,7 @@ z-index: 5010;
     -webkit-transition: visibility 0.5s;
     -moz-transition: visibility 0.5s;
     opacity:0;
+    z-index: inherit;
 }
 .onclick-menu ul li{
   width: 10rem;
