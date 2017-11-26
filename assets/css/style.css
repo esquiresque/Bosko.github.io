@@ -115,6 +115,7 @@ z-index: 5010;
 .onclick-menu {
     position: relative;
     display: inline-block;
+  -moz-user-select: auto;
 }
 .onclick-menu:before {
     content: "";
