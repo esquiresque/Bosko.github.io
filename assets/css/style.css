@@ -130,7 +130,6 @@ z-index: 5010;
 }
 .onclick-menu-content {
     position: absolute;
-    z-index: 1;
     background:rgba(104, 132, 135, 0.9) none repeat scroll 0 0;
     right:0rem;
     visibility: hidden;
