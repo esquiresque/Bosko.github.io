@@ -109,7 +109,7 @@ float: right;
 position: relative;
 top: 2em;
 right: 2em;
-/*z-index: 5010;*/
+z-index: 5010;
 }
 
 .onclick-menu {
@@ -127,7 +127,6 @@ right: 2em;
     opacity:1;
     -webkit-transition: opacity 0.5s ease-in;
     -moz-transition: opacity 0.5s ease-in;
-    z-index: 5010;
 }
 .onclick-menu-content {
     position: absolute;
@@ -138,7 +137,6 @@ right: 2em;
     -webkit-transition: visibility 0.5s;
     -moz-transition: visibility 0.5s;
     opacity:0;
-    z-index: 5010;
 }
 .onclick-menu ul li{
   width: 10rem;
