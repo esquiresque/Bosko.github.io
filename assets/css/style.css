@@ -161,6 +161,13 @@ z-index: 5010;
 }
   
 /******************************Carousel Thingymajigs******************************/
+
+.Boskotainer
+{
+clear: both;
+top:5rem;
+}
+
 .slick-prev, .slick-next
 {
 display: inline-block;
