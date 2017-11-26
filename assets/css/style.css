@@ -173,10 +173,9 @@ position: absolute;
 top:5rem;
 cursor: pointer;
 z-index: 5010;
-visibility: hidden;
 
 }
-/*.slick-prev
+.slick-prev
 {
 right: 2.5rem;
 top: 10rem;
@@ -186,7 +185,7 @@ top: 10rem;
 {
 right: 2.5rem;
 top: 15rem;
-}*/
+}
 
 color: #fff;
 /******************************Actions******************************/
