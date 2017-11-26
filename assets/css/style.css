@@ -126,6 +126,7 @@ z-index: 5010;
     visibility: visible;
     opacity:1;
     -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
 }
 .onclick-menu-content {
     position: absolute;
@@ -133,7 +134,8 @@ z-index: 5010;
     background:rgba(104, 132, 135, 0.9) none repeat scroll 0 0;
     right:0rem;
     visibility: hidden;
-    transition: visibility 0.5s;
+    -webkit-transition: visibility 0.5s;
+    -moz-transition: visibility 0.5s;
     opacity:0;
 }
 .onclick-menu ul li{
