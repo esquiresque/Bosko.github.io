@@ -153,8 +153,8 @@ z-index: 5010;
   color:#E3EFF2;
 }
 
-.onclick-menu ul{  
-  border:none;
+.onclick-menu ul:focus{  
+  outline:none;
 }
 
 .MenuLink
