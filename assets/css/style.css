@@ -47,6 +47,10 @@ a
   background-color:transparent;
 }
 
+.NoScroll //removes vertical scroll from homepage
+{
+  overflow:hidden;
+}
 /******************************HEADER & NAV BAR******************************/
 
 .NavContainer
