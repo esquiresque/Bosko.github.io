@@ -129,6 +129,7 @@ z-index: 5010;
     opacity:1;
     -webkit-transition: opacity 0.5s ease-in;
     -moz-transition: opacity 0.5s ease-in;
+  
 }
 .onclick-menu-content {
     position: absolute;
@@ -150,6 +151,10 @@ z-index: 5010;
 }
 .onclick-menu ul li a{
   color:#E3EFF2;
+}
+
+.onclick-menu ul:focus{  
+  border:none;
 }
 
 .MenuLink
