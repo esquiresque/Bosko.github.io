@@ -241,7 +241,7 @@ button {
 
 
 /******************************ScreenSizes******************************/
-@media (max-width: 543px){
+@media screen and (max-width: 543px){
   .Boskotainer img {
     width: 200%;
     left: -50%;
