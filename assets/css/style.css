@@ -153,7 +153,7 @@ z-index: 5010;
   color:#E3EFF2;
 }
 
-.onclick-menu ul:active{  
+.onclick-menu ul{  
   border:none;
 }
 
