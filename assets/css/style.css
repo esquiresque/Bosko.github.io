@@ -188,8 +188,10 @@ position: absolute;
 top:5rem;
 cursor: pointer;
 z-index: 5010;
-
+width:3rem;
+height:3rem;
 }
+
 .slick-prev
 {
 right: 2.5rem;
