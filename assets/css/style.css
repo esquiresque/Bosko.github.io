@@ -103,14 +103,14 @@ a
 /*width: 2.5em;
 height: 4.5em;*/
     width: 4rem;
-    height: 7rem;
+    height: 5rem;
 background-repeat: no-repeat;
 background-size: 2.5rem;
 background-position: center;
 float: right;
 position: relative;
-top: 2em;
-right: 2em;
+top: 1em;
+right: 1.5em;
 z-index: 5010;
 }
 
