@@ -100,8 +100,10 @@ a
 .NavIcon
   {
   background-image: url('https:/esquiresque.github.io/assets/images/MenuBtn.png');
-width: 2.5em;
-height: 4.5em;
+/*width: 2.5em;
+height: 4.5em;*/
+    width: 60px;
+    height: 80px;
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
