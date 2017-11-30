@@ -47,7 +47,7 @@ a
   background-color:transparent;
 }
 
-.NoScroll //removes vertical scroll from homepage
+.NoScroll /*****removes vertical scroll from homepage*****/
 {
   overflow:hidden;
 }
