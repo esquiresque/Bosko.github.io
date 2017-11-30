@@ -247,3 +247,10 @@ button {
     left: -50%;
     position: relative;}
 }
+
+@media screen and (min-width: 544px){
+  .Boskotainer img {
+    width: 150% !important;
+    left: -30%;
+    position: relative;}
+}
