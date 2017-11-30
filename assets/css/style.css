@@ -164,8 +164,8 @@ z-index: 5010;
 
 .Boskotainer  /*Bug-fix to Firefox Android browser i.e. allows Navicon to be activated by touchscreen*/
 {
-clear: both;
-  top:-3rem;
+/*clear: both;
+  top:-3rem;*/
 }
 
 .slick-prev, .slick-next
