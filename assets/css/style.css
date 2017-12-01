@@ -50,6 +50,7 @@ a
 .NoScroll /*****removes vertical scroll from homepage*****/
 {
   overflow:hidden;
+  position:static;
 }
 /******************************HEADER & NAV BAR******************************/
 
