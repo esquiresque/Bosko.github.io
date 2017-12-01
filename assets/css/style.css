@@ -47,11 +47,6 @@ a
   background-color:transparent;
 }
 
-.NoScroll /*****removes vertical scroll from homepage*****/
-{
-  overflow:hidden;
-  min-height: 100%;
-}
 /******************************HEADER & NAV BAR******************************/
 
 .NavContainer
