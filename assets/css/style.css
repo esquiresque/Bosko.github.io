@@ -28,7 +28,7 @@ background: -webkit-radial-gradient(center, ellipse cover, #edf5f7 0%,#edf5f7 20
 background: radial-gradient(ellipse at center, #edf5f7 0%,#edf5f7 20%,#e3eff2 20%,#e3eff2 40%,#dae9ed 40%,#dae9ed 60%,#cee1e5 60%,#cee1e5 80%,#c0dae0 80%,#c0dae0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f7', endColorstr='#c0dae0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat:no-repeat;
-  background-position: cover;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   font-family:'Raleway', sans-serif;
