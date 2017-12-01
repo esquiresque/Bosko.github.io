@@ -216,10 +216,10 @@ top: 15rem;
 {
 border-style: none;
 border-radius: 11px;
-line-height: 1rem;
+line-height: 0.5rem;
 text-indent: -1000%;
 overflow: hidden;
-width: 1rem;
+width: 0.5rem;
 }
 
 .slick-dots li
