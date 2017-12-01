@@ -266,8 +266,9 @@ button {
 /******************************ScreenSizes******************************/
 @media screen and (max-width: 543px){
   .Boskotainer img {
-    width: 200% !important;
-    left: -50%;
+    width: 175% !important;
+    margin-top: 5rem;
+    left: -40%;
     position: relative;}
 }
 
