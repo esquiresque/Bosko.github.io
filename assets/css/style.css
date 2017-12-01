@@ -36,6 +36,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f7', end
   line-height: 1.5;
   overflow-y: visible;
   min-height:120%;
+  z-index: -1;
 
 }
 
