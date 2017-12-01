@@ -224,7 +224,7 @@ overflow: hidden;
 width: 1rem;
 }
 
-.slick-dots li button:hover
+.slick-dots li button:hover, .slick-active button
 {
   background-color:#888;
 }
