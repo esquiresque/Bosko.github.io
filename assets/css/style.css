@@ -225,6 +225,7 @@ width: 1rem;
 .slick-dots li
 {
   display:inline-block;
+  margin: 0rem 1rem;
 }
 
 .slick-dots li button:hover, .slick-active button
