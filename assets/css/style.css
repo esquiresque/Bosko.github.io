@@ -212,6 +212,12 @@ right: 2.5rem;
 top: 15rem;
 }
 
+ul .slickdots
+{
+  width: 7.5rem;
+  margin: auto;
+}
+
 .slick-dots li button
 {
 border-style: none;
