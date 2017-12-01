@@ -213,6 +213,21 @@ top: 15rem;
 }
 
 color: #fff;
+
+.slick-dots li button
+{
+border-style: none;
+border-radius: 11px;
+line-height: 1rem;
+text-indent: -1000%;
+overflow: hidden;
+width: 1rem;
+}
+
+.slick-dots li button:hover
+{
+  background-color:#888;
+}
 /******************************Actions******************************/
 [role="button"], a, area, button, input, label, select, summary, textarea
 {
