@@ -256,6 +256,6 @@ button {
 @media screen and (min-width: 768px){
   .Boskotainer img {
     width: 100% !important;
-    left: -30%;
+    left: 0%;
     position: relative;}
 }
