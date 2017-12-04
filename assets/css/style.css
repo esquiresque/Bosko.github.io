@@ -269,17 +269,19 @@ width: 0.5rem;
 }
 
 .twitwoo{
-  background-image: url("://esquiresque.github.io/assets/images/twitlow.png");
+  background-image: url("/assets/images/twitlow.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  cursor:pointer;
 }
   
 .twitwoo:hover{
-  background-image: url("://esquiresque.github.io/assets/images/twitlit.png");
+  background-image: url("/assets/images/twitlit.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  cursor:pointer;
 }
 
 .backup
