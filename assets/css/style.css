@@ -263,6 +263,19 @@ width: 0.5rem;
 .social ul li{
   width:2rem;
   height:2rem;
+  display: inline-block;
+  float: left;
+  background-image: url("://esquiresque.github.io/assets/images/twitlow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.social ul li:hover{
+  background-image: url("://esquiresque.github.io/assets/images/twitlit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .backup
