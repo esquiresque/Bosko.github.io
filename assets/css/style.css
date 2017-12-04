@@ -238,7 +238,31 @@ width: 0.5rem;
 {
   background-color:#888;
 }
-/******************************Actions******************************/
+
+
+/******************************FOOTER******************************/
+
+.botty
+{
+}
+
+.bottydiv
+{
+}
+
+.contact
+{
+}
+
+.social
+{
+}
+
+.backup
+{
+}
+
+/******************************ACTIONS******************************/
 [role="button"], a, area, button, input, label, select, summary, textarea
 {
   touch-action: manipulation;
