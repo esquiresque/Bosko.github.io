@@ -260,6 +260,11 @@ width: 0.5rem;
 {
 }
 
+.social ul li{
+  width:2rem;
+  height:2rem;
+}
+
 .backup
 {
 }
