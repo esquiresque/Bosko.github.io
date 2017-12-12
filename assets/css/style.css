@@ -253,17 +253,23 @@ width: 0.5rem;
   min-height: 5rem;
 }
 
+.bottydiv div{
+  display: inline-block;
+}
+
 .contact
 {
 }
 
 .social
 {
+  float:right;
 }
 
 .social ul li{
   width:2rem;
   height:2rem;
+  margin-right: 0.75rem;
   display: inline-block;
   float: left;
  
