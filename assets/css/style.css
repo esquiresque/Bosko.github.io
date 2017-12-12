@@ -372,6 +372,12 @@ button {
     margin-top: 5rem;
     left: -40%;
     position: relative;}
+  .bottydiv div {
+    display:block;
+    text-align:center;}
+  .social, social ul li{
+    float:none;
+  }
 }
 
 @media screen and (min-width: 544px){
