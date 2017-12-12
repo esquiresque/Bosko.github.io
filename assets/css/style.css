@@ -291,6 +291,22 @@ width: 0.5rem;
   cursor:pointer;
 }
 
+
+.instawoo{
+  background-image: url("/assets/images/instalow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor:pointer;
+}
+  
+.instawoo:hover{
+  background-image: url("/assets/images/instalit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor:pointer;
+}
 .backup
 {
 }
