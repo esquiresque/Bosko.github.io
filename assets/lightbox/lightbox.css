@@ -160,7 +160,8 @@ top: 0px;
 }
 
 .lbcontainer {
-  margin-top:5em;
   position: relative;
-  z-index: 5001;
+  clear: both;
+  top: -5rem;
+  z-index: 5000;
 }
