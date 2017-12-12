@@ -250,6 +250,7 @@ width: 0.5rem;
 .bottydiv
 {
   padding:0rem 2rem;
+  min-height: 5rem;
 }
 
 .contact
@@ -266,6 +267,11 @@ width: 0.5rem;
   display: inline-block;
   float: left;
  
+}
+
+.social ul li a{
+  position:relative;
+  float:left;
 }
 
 .twitwoo{
