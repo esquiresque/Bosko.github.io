@@ -374,10 +374,12 @@ button {
     position: relative;}
   .bottydiv div {
     display:block;
-    text-align:center;}
+    text-align:center;
+    padding:1rem 0rem;}
+  .bottydiv div p {
+    margin-bottom:0.45rem;]
   .social, .social ul li{
-    float:none;
-  }
+    float:none;}
 }
 
 @media screen and (min-width: 544px){
