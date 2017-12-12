@@ -162,6 +162,5 @@ top: 0px;
 .lbcontainer {
   position: relative;
   clear: both;
-  top: -5rem;
   z-index: 5000;
 }
