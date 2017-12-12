@@ -257,6 +257,11 @@ width: 0.5rem;
   display: inline-block;
 }
 
+.bottydiv p{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 .contact
 {
 }
