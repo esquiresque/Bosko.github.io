@@ -214,8 +214,9 @@ top: 15rem;
 
 ul.slick-dots
 {
-  width: 7.5rem;
-  margin: auto;
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
 }
 
 .slick-dots li button
