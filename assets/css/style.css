@@ -184,18 +184,6 @@ z-index: 5012;
   top:-5rem;
 }
 
-#slick-slide00 img, #slick-slide01 img, #slick-slide02 img, #slick-slide03 img
-{
-  -webkit-animation: 7s ease-in zoomswirl;
-  -moz-animation: 7s ease-in zoomswirl;
-  animation-iteration-count:1;
-}
-@keyframes zoomswirl{
-  0%{transform: scale(0.8) rotate(-5deg);}
-  50%{transform: scale(1) rotate(0deg);}
-  100%{transform: scale(1) rotate(0deg);}
-}
-
 .slick-prev, .slick-next
 {
 display: inline-block;
