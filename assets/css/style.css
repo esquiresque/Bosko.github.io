@@ -257,6 +257,8 @@ width: 0.5rem;
 #BoskoBout
 {
   width:100%;
+  position: relative;
+  bottom: 5rem;
 }
 
 .Boskontent
