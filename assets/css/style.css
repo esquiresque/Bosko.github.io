@@ -262,7 +262,6 @@ width: 0.5rem;
 
 .Boskontent
 {
- padding: 0rem 2rem;
  min-height: 5rem;
  background:rgba(73,125,131,0.7);
 }
@@ -283,14 +282,14 @@ width: 0.5rem;
 {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.25rem;
   color: #fff;
   padding-top: 1rem;
 }
 
 .AboutMe p
 {
-  padding-bottom: 1rem;
+  padding-bottom: 1.25rem;
   color: #fff;
   line-height: 1.75rem;
 }
