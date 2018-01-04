@@ -285,11 +285,12 @@ width: 0.5rem;
   font-size: 1rem;
   line-height: 1.5;
   color: #7E9B9F;
+  padding-top: 1rem;
 }
 
 .AboutMe p
 {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   color: #7E9B9F;
   line-height: 1.75rem;
 }
