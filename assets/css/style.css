@@ -176,7 +176,7 @@ z-index: 5012;
   transition: all 0.3s ease 0s !important;
 }
   
-/******************************Carousel Thingymajigs******************************/
+/******CAROUSEL THINGYMAJIGS (WITH THE KIND HELP OF MR KEN WHEELER, FREE BACON MERCHANT AND ORIGINATOR OF SLICK CAROUSELS)******/
 
 .Boskotainer  /*Bug-fix to Firefox Android browser i.e. allows Navicon to be activated by touchscreen*/
 {
@@ -252,6 +252,47 @@ width: 0.5rem;
   background-color:#888;
 }
 
+/******************************ABOUT CONTENT SECTION***************/
+
+#BoskoBout
+{
+  width:100%;
+}
+
+.Boskontent
+{
+ padding: 0rem 2rem;
+ min-height: 5rem;
+ background:#fff;
+}
+  
+.AboutMe div
+{
+ display: inline-block;
+ width:50%;
+ float: left;
+}
+
+.AboutMe h2
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.AboutMe p
+{
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #7E9B9F;
+}
+
+.AboutPix
+{
+  display: inline-block;
+ width:50%;
+ float: right;
+}
 
 /******************************FOOTER******************************/
 
