@@ -266,7 +266,12 @@ width: 0.5rem;
  min-height: 5rem;
  background:rgba(73,125,131,0.7);
 }
-  
+
+.AboutMe
+{
+  padding: 2rem 0rem;
+}
+
 .AboutMe div
 {
  display: inline-block;
