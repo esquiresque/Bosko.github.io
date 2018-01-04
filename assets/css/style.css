@@ -192,7 +192,8 @@ z-index: 5012;
 
 @keyframes swellswirl{
   0%{transform: scale(0.8) rotate(-2deg);}
-  100%{transform: scale(1) rotate(0deg);}
+  30%{transform: scale(1) rotate(0deg);}
+  100%{transform scale (1) rotate(0deg);}
 }
 
 .slick-prev, .slick-next
