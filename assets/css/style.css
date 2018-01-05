@@ -460,10 +460,10 @@ button {
   .lbcontainer {
     min-height: 350px;}
   .botty{
-    position: static;
+/*    position: static;
     bottom: 0px;
     width: 100%;
-  }
+  }*/
 }
 
 @media screen and (min-width: 768px){
