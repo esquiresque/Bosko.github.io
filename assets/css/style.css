@@ -306,6 +306,8 @@ width: 0.5rem;
 .botty
 {
   background:#7E9B9F;
+  position: absolute;
+  width: 100%;
 }
 
 .bottydiv
