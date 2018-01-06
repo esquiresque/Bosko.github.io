@@ -51,6 +51,11 @@ a
 
 /******************************HEADER & NAV BAR******************************/
 
+#Topper
+{
+  text-align:center;
+}
+
 .NavContainer
 {
   background: #7e9b9f;
