@@ -463,6 +463,40 @@ button {
     float:left;}
 }
 
+@media screen and (min-width: 605px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
+  .onclick-menu {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    left:12%;
+}
+
+.NavIcon{
+visibility: hidden;
+float: none;
+}
+
+.onclick-menu-content{
+position: relative;
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+visibility: visible;
+z-index: inherit;
+}
+
+.onclick-menu ul li{
+display: inline-block;
+cursor: context-menu;
+width: 7rem;
+line-height: normal;
+}
+
+.onclick-menu ul li a {
+    color: #7E9B9F;
+font-size: 1rem;
+font-weight: 500;
+}
+}
+
 @media screen and (min-width: 701px){
   .lbcontainer {
     min-height: 350px;}
