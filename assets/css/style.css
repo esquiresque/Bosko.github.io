@@ -200,9 +200,8 @@ z-index: 5001;
 }
 
 @keyframes swellswirl{
- 0%{transform: scale(0.8) rotate(-2deg);}
-  30%{transform: scale(0.9) rotate(0deg);}
-  60%{transform: scale(1) rotate(0deg);}
+ 0%{transform: scale(0.8) rotate(-5deg);}
+  50%{transform: scale(1) rotate(0deg);}
   100%{transform scale (1) rotate(0deg);}
 }
 
