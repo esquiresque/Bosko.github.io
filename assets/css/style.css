@@ -137,6 +137,11 @@ z-index: 5001;
 .onclick-menu:hover {
     cursor: pointer;
 }
+
+.onclick-menu:focus{
+  z-index: 5011;
+}
+
 .onclick-menu:focus .onclick-menu-content {
     visibility: visible;
     opacity:1;
