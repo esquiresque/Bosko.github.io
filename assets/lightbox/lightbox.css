@@ -17,7 +17,6 @@ margin: 25px 5px 20px 5px;
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
 
 .imgwrap{
-display:flex;
 height: 100%;
 width: auto;
 position: absolute;
