@@ -486,7 +486,7 @@ button {
     position: relative;
     display: inline-block;
     width: 80%;
-    left:12%;
+    left:5%;
 }
 
 .NavIcon{
@@ -500,6 +500,7 @@ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 visibility: visible;
 z-index: inherit;
 opacity: 1;
+float: right;
 }
 
 .onclick-menu ul li{
