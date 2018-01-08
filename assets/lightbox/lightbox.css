@@ -195,7 +195,7 @@ z-index:5001;
 
 .lightbox-target:target img {
 max-height: 100vh;
-max-width: 100%;
+max-width: 100vw;
 height:auto;
 width: auto;
 }
