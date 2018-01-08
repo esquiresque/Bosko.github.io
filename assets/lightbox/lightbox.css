@@ -197,6 +197,7 @@ z-index:5001;
 max-height: 100vh;
 max-width: 100%;
 height:auto;
+width: auto;
 }
 
 .lightbox-target:target a.lightbox-close {
