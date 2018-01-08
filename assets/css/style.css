@@ -446,6 +446,13 @@ button {
 
 
 /******************************ScreenSizes******************************/
+
+@media screen and (max-width: 524px){
+  .onclick-menu ul li a {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 543px){
   .Boskotainer img {
     width: 175% !important;
