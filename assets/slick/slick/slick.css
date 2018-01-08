@@ -98,6 +98,7 @@
 .slick-slide img
 {
     display: block;
+    image-rendering: -webkit-optimize-contrast;
 }
 .slick-slide.slick-loading img
 {
