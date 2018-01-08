@@ -449,7 +449,7 @@ button {
 
 @media screen and (max-width: 524px){
   .onclick-menu ul li a {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 }
 
