@@ -498,7 +498,7 @@ opacity: 1;
 .onclick-menu ul li{
 display: inline-block;
 cursor: context-menu;
-width: 5.5rem;
+width: auto;
 line-height: normal;
 }
 
@@ -512,7 +512,6 @@ line-height: normal;
 
 @media screen and (min-width: 605px){
   .onclick-menu ul li{
-  width: 7rem;
 }
 }
 
