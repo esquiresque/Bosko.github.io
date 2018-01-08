@@ -107,6 +107,7 @@ a
   z-index: 5001;
   /*transform: scale(0.8);*/
   image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: bicubic;
 }
 
 .HomePin a:active{
