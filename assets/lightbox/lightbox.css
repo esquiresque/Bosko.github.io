@@ -194,8 +194,8 @@ z-index:5001;
 }
 
 .lightbox-target:target img {
-max-height: 100%;
-max-width: 100%;
+max-height: 99%;
+max-width: 99%;
 }
 
 .lightbox-target:target a.lightbox-close {
