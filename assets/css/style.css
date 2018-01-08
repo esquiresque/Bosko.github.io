@@ -506,6 +506,7 @@ line-height: normal;
     color: #7E9B9F;
     font-size: 0.9rem;
     font-weight: 500;
+    float: left;
 }
 }
 
@@ -517,6 +518,7 @@ line-height: normal;
 
 .onclick-menu ul li a {
 font-size: 0.9rem;
+margin-right: 1rem;
 }
 }
 
