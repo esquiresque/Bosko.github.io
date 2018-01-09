@@ -129,14 +129,14 @@ font-size: 3rem;
 font-weight: 300;
 }
 
-a.lightbox-next {
+a.lightbox-prev {
 left: 0px;
 bottom: 0px;
 position: absolute;
 margin: 0;
 }
 
-a.lightbox-prev {
+a.lightbox-next {
 right: 0px;
 bottom: 0px;
 position: absolute;
