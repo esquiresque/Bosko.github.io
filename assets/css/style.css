@@ -312,13 +312,6 @@ width: 0.5rem;
   line-height: 1.75rem;
 }
 
-.AboutPix
-{
-  display: inline-block;
- width:50%;
- float: right;
-}
-
 .AboutPix img{
   width: 100%;
 }
@@ -553,4 +546,10 @@ margin-right: 1rem;
     width: 50%;
     display: inline-block;
   }
+  .AboutPix
+{
+  display: inline-block;
+ width:50%;
+ float: right;
+}
 }
