@@ -478,6 +478,16 @@ button {
     text-align: left;}
   .contact{
     float:left;}
+  .AboutMe{
+    width: 50%;
+    display: inline-block;
+  }
+  .AboutPix
+{
+  display: inline-block;
+ width:50%;
+ float: right;
+}
 }
 
 @media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
@@ -525,16 +535,6 @@ line-height: normal;
 .onclick-menu ul li a {
 font-size: 0.9rem;
 margin-right: 1rem;
-}
-  .AboutMe{
-    width: 50%;
-    display: inline-block;
-  }
-  .AboutPix
-{
-  display: inline-block;
- width:50%;
- float: right;
 }
 }
 
