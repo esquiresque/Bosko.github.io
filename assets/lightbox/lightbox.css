@@ -94,7 +94,7 @@ right: 0;
 transition: .5s ease-in-out;
 }*/
 
-a.lightbox-close{
+a.lightbox-next{
 width: 50px;
 height: 50px;
 float:left;
@@ -112,38 +112,35 @@ font-size: 3rem;
 font-weight: 300;
 }
 
-a.lightbox-next {
-display: block;
-width:50px;
-height:50px;
-margin-top:-50px;
+a.lightbox-close, a.lightbox-prev{
+width: 50px;
+height: 50px;
+float:left;
 box-sizing: border-box;
 background: rgba(0, 0, 0, 0.32);
 color: #fff;
-font-size:30px;
 text-decoration: none;
-float: right;
 -webkit-transition: .5s ease-in-out;
 -moz-transition: .5s ease-in-out;
 -o-transition: .5s ease-in-out;
 transition: .5s ease-in-out;
+line-height: 2.5rem;
+font-size: 3rem;
+font-weight: 300;
+}
+
+a.lightbox-next {
+left: 0px;
+bottom: 0px;
+position: absolute;
+margin: 0;
 }
 
 a.lightbox-prev {
-display: block;
-width:50px;
-height:50px;
-margin-top:-50px;
-box-sizing: border-box;
-background: rgba(0, 0, 0, 0.32);
-color: #fff;
-font-size:30px;
-text-decoration: none;
-float: left;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
+right: 0px;
+bottom: 0px;
+position: absolute;
+margin: 0;
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
