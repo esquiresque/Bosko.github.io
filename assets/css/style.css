@@ -289,11 +289,6 @@ width: 0.5rem;
  background:rgba(73,125,131,0.7);
 }
 
-.AboutMe
-{
-  padding: 2rem 1rem;
-}
-
 .AboutMe div
 {
  display: inline-block;
@@ -307,12 +302,12 @@ width: 0.5rem;
   font-size: 1rem;
   line-height: 1.25rem;
   color: #fff;
-  padding-top: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
 }
 
 .AboutMe p
 {
-  padding-bottom: 1.25rem;
+  padding: 0rem 1rem 1rem;
   color: #fff;
   line-height: 1.75rem;
 }
@@ -552,5 +547,6 @@ margin-right: 1rem;
     position: relative;}
   .AboutMe{
     width: 50%;
+    display: inline-block;
   }
 }
