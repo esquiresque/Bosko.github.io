@@ -319,6 +319,10 @@ width: 0.5rem;
  float: right;
 }
 
+.AboutPix img{
+  width: 100%;
+}
+
 /******************************FOOTER******************************/
 
 .botty
