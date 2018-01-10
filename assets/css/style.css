@@ -315,9 +315,7 @@ width: 0.5rem;
 
 .AboutPix1 img, AboutPix2 img{
   width: 90%;
-}
-
-.AboutPix1 img{
+  /*! margin: auto; */
   padding-top: 1rem;
 }
 
@@ -471,17 +469,17 @@ button {
     margin-bottom:0.45rem;}
   .social, .social ul li{
     float:none;}
-  .AboutPix1{
-    display: none;}
+  .AboutPix1
+{
+/*! visibility: hidden; */
+display: none;
+}
   .AboutPix2{
     width: 100%;
+    /*! height: auto; */
     padding-top: 1rem;
-    padding-bottom: 1rem;}
-}
-.AboutPix2 img{
-    width: 90%;
-    margin: auto;
-    display: block;}
+    padding-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 544px){
