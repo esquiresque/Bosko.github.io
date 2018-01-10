@@ -16,7 +16,22 @@
   <!--StyleSheets-->
   <link rel="stylesheet" href="https://esquiresque.github.io/assets/css/style.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="//esquiresque.github.io/assets/slick/slick/slick.css"/>
- 
+  <script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
   
 </head>
 
@@ -34,7 +49,7 @@
         		<li><a class="" href="http://esquiresque.github.io/sketch.html">Sketchbook</a></li>
         		<li><a class="" href="http://esquiresque.github.io/portfolio.html">PORTFOLIO</a></li>
         		<li><a class="" href="http://esquiresque.github.io/services.html">Services</a></li>
-			<li><a class="" href="#">About Me</a></li>
+			<li><a class="" href="#BoskoBout">About Me</a></li>
     		</ul>
 	     </div>  
   </section>
