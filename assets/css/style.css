@@ -495,17 +495,20 @@ button {
   .contact{
     float:left;}
   .AboutMe{
-    width: 50%;
+    width: 100%;
     display: inline-block;
   }
-  .AboutPix1
-{
-  float: right;
-  width: 50%;
-}
   .AboutPix2
 {
-  display:none;
+ /*! visibility: hidden; */
+  /*! left: -150%; */
+  /*! position: absolute; */
+ display: none;
+}
+  .AboutPix1
+{
+float: right;
+  width: 50%;
 }
 }
 
