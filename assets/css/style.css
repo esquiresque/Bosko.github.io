@@ -313,8 +313,12 @@ width: 0.5rem;
   line-height: 1.75rem;
 }
 
-.AboutPix img{
-  width: 100%;
+.AboutPix1 img, AboutPix2 img{
+  width: 90%;
+}
+
+.AboutPix1 img{
+  padding-top: 1rem;
 }
 
 /******************************FOOTER******************************/
@@ -467,6 +471,12 @@ button {
     margin-bottom:0.45rem;}
   .social, .social ul li{
     float:none;}
+  .AboutPix1{
+    display: none;}
+  .AboutPix2{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;}
 }
 
 @media screen and (min-width: 544px){
@@ -483,11 +493,10 @@ button {
     width: 50%;
     display: inline-block;
   }
-  .AboutPix
+  .AboutPix1
 {
-  display: inline-block;
- width:50%;
- float: right;
+  float: right;
+  width: 50%;
 }
 }
 
