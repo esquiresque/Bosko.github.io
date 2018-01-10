@@ -498,6 +498,10 @@ button {
   float: right;
   width: 50%;
 }
+  .AboutPix2
+{
+  display:none;
+}
 }
 
 @media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
