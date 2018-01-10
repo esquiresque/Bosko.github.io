@@ -297,7 +297,7 @@ width: 0.5rem;
  float: left;
 }
 
-.AboutMe h2
+.Boskontent h2
 {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -306,11 +306,13 @@ width: 0.5rem;
   padding: 1rem 1rem 0rem 1rem;
 }
 
-.AboutMe p
+.Boskontent p
 {
   padding: 0rem 1rem 1rem;
   color: #fff;
-  line-height: 1.75rem;
+  text-indent: 1rem;
+  text-align: justify;
+  font-style: italic;
 }
 
 .AboutPix1 img, AboutPix2 img{
@@ -512,6 +514,8 @@ display: none;
 {
 float: right;
   width: 50%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 }
 
