@@ -481,7 +481,7 @@ button {
 .AboutPix2 img{
     width: 90%;
     margin: auto;
-    display; block;}
+    display: block;}
 }
 
 @media screen and (min-width: 544px){
