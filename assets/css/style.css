@@ -321,6 +321,28 @@ width: 0.5rem;
   padding-top: 1rem;
 }
 
+.linkwrap1
+{
+  width: 50%;
+  height: 2rem;
+  position: relative;
+  float: right;
+  bottom: 3.35rem;
+}
+
+.aboutlink1
+{
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: #ccc;
+  font-weight: 500;
+  position: relative;
+  right: 10%;
+  background-color: rgba(0,0,0,0.7);
+  line-height: 2rem;
+}
+
 /******************************FOOTER******************************/
 
 .botty
