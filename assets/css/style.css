@@ -206,6 +206,11 @@ z-index: 5001;
   top:-5rem;
 }
 
+@keyframes sideslide{
+ 0%{left: -100%;}
+  100%{left: 0%;}
+}
+
 @keyframes swellswirl{
  0%{transform: scale(0.8) rotate(-5deg);}
   50%{transform: scale(1) rotate(0deg);}
