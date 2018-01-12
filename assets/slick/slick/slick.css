@@ -42,8 +42,8 @@
     left: 0%;
     padding: 0rem 1rem;
     bottom: 50%;
-    -webkit-animation: 2s linear sideslide;
-  -moz-animation: 2s linear sideslide;
+    -webkit-animation: 4s ease-in sideslide;
+  -moz-animation: 4s ease-in sideslide;
 }
 
 .slick-list
