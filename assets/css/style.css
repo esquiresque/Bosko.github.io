@@ -208,6 +208,7 @@ z-index: 5001;
 
 @keyframes sideslide{
  0%{left: -100%;}
+  50%{left: -100%}
   100%{left: 0%;}
 }
 
