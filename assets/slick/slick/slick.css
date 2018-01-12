@@ -22,9 +22,28 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.slick-active{
+.slick-active img{
     -webkit-animation: 12s linear swellswirl;
   -moz-animation: 12s linear swellswirl;
+}
+
+.slidelink{
+    display: none;
+}
+
+.slick-active a{
+    display: block;
+    color: #fff;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    line-height: 2rem;
+    background-color: rgba(0,0,0,0.3);
+    left: 0%;
+    padding: 0rem 1rem;
+    bottom: 50%;
+    -webkit-animation: 2s linear sideslide;
+  -moz-animation: 2s linear sideslide;
 }
 
 .slick-list
