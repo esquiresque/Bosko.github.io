@@ -206,12 +206,6 @@ z-index: 5001;
   top:-5rem;
 }
 
-.slick-slide img{
-  -webkit-animation: ease-in-out swellswirl;
-  -moz-animation: ease-in-out swellswirl;
-  animation-iteration-count: infinite;
-}
-
 @keyframes swellswirl{
  0%{transform: scale(0.8) rotate(-5deg);}
   50%{transform: scale(1) rotate(0deg);}
