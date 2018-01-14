@@ -207,9 +207,9 @@ z-index: 5001;
 }
 
 @keyframes sideslide{
- 0%{left: -100%;}
-  50%{left: -100%}
-  100%{left: 0%;}
+ 0%{right: -100%;}
+  50%{right: -100%}
+  100%{right: 0%;}
 }
 
 @keyframes swellswirl{
