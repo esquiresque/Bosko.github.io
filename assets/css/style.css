@@ -246,6 +246,28 @@ right: 2.5rem;
 top: 15rem;
 }
 
+.play, .pause{
+display: inline-block;
+background-color: transparent;
+color: #7E9B9F;
+border: none;
+font-weight: bold;
+font-size: 1.5rem;
+position: absolute;
+top:5rem;
+cursor: pointer;
+z-index: 5010;
+width:3rem;
+height:3rem;
+}
+
+.play{
+}
+
+.pause{
+
+}
+
 ul.slick-dots
 {
   position: absolute;
