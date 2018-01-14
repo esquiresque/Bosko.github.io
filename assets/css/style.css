@@ -246,30 +246,14 @@ right: 2.5rem;
 top: 15rem;
 }
 
-.play, .pause{
-display: inline-block;
-background-color: transparent;
-color: #7E9B9F;
-border: none;
-font-weight: bold;
-font-size: 1.5rem;
+.pauseplay
+{
+width: 4rem;
+height: 2rem;
+float: right;
 position: absolute;
-top:5rem;
-right: 1rem;
-cursor: pointer;
-z-index: 5010;
-width:3rem;
-height:3rem;
-}
-
-.play:focus, .pause:focus{
-  left:-100%;
-}
-
-.play{
-}
-
-.pause{
+top: 13rem;
+right: 2rem;
 }
 
 ul.slick-dots
