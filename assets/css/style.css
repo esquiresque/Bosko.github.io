@@ -330,6 +330,15 @@ width: 0.5rem;
   bottom: 3.4rem;
 }
 
+.linkwrap2
+{
+  width: 50%;
+  height: 2rem;
+  position: relative;
+  float: right;
+  bottom: 2rem;
+}
+
 .aboutlink1
 {
   float: right;
