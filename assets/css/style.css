@@ -257,11 +257,11 @@ right: 2rem;
 }
 
 .pauseplay:before{
-  content: "Pause";
+  content: "||";
 }
 
 .paused:focus:before{
-  content: "Play";
+  content: "\27A4";
 }
 
 ul.slick-dots
