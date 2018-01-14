@@ -321,21 +321,21 @@ width: 0.5rem;
   padding-top: 1rem;
 }
 
-.linkwrap1
+.linkwrap1, .linkwrap2
 {
   width: 50%;
   height: 2rem;
   position: relative;
   float: right;
+}
+
+.linkwrap1
+{
   bottom: 3.4rem;
 }
 
 .linkwrap2
 {
-  width: 50%;
-  height: 2rem;
-  position: relative;
-  float: right;
   bottom: 2rem;
 }
 
