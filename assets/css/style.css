@@ -256,11 +256,11 @@ top: 13rem;
 right: 2rem;
 }
 
-.pauseplay:focus:before{
+.pauseplay:before{
   content: "Pause";
 }
 
-.paused:focus:after{
+.paused:focus:before{
   content: "Play";
 }
 
