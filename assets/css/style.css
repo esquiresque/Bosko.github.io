@@ -256,6 +256,14 @@ top: 13rem;
 right: 2rem;
 }
 
+.pauseplay:focus:before{
+  content: "Pause";
+}
+
+.paused:focus:before{
+  content: "Play";
+}
+
 ul.slick-dots
 {
   position: absolute;
