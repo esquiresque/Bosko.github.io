@@ -254,6 +254,7 @@ float: right;
 position: absolute;
 top: 13rem;
 right: 2rem;
+content: "Pause";
 }
 
 .pauseplay:focus:before{
