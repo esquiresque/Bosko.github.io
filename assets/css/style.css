@@ -61,8 +61,8 @@ a
 }
 
 button, button:focus, button:active{
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    /*-webkit-appearance: none;
+    -moz-appearance: none;*/
     outline: none;
     background-color: #271b1b80;
     }
