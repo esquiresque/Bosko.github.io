@@ -224,10 +224,10 @@ z-index: 5001;
   100%{transform scale (1) rotate(0deg);}
 }
 
-button.slick-prev, button.slick-next
+slick-prev, .slick-next
 {
 display: inline-block;
-background-color: #271b1b80 !important;
+background-color: #271b1b80;
 color: #ccc;
 border: none;
 font-weight: bold;
@@ -253,7 +253,7 @@ top: 20rem;
 border-radius: 0px 0px 0px 15px;
 }
 
-button.pauseplay
+.pauseplay
 {
 width: 2rem;
 height: 2rem;
@@ -261,7 +261,7 @@ position: absolute;
 top: 18.2rem;
 right: 1rem;
 border: none;
-background-color: #271b1b80 !important;
+background-color: #271b1b80;
 color: #ccc;
 font-weight: bold;
 font-size: 1rem;
