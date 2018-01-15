@@ -63,6 +63,7 @@ a
 button, button:focus, button:active{
     -webkit-appearance: none;
     -moz-appearance: none;
+    background-color: rgba(0,0,0,0);
     }
 /******************************HEADER & NAV BAR******************************/
 
