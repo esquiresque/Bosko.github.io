@@ -67,6 +67,7 @@ button, button:focus, button:active{
     background-color: #271b1b80;
     border: none;
     border-color: transparent;
+    outline-color: transparent;
     }
 /******************************HEADER & NAV BAR******************************/
 
