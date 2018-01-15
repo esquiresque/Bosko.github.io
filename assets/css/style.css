@@ -60,6 +60,10 @@ a
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
+button, button:focus, button:active{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    }
 /******************************HEADER & NAV BAR******************************/
 
 #Topper
