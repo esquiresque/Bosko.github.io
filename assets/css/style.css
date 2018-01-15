@@ -239,7 +239,7 @@ z-index: 5001;
 .slick-prev, .slick-next
 {
 display: inline-block;
-background-color: #271b1b80;
+background-color: #271b1b80 !important;
 color: #ccc;
 border: none;
 font-weight: bold;
@@ -273,7 +273,7 @@ position: absolute;
 top: 18.2rem;
 right: 1rem;
 border: none;
-background-color: #271b1b80;
+background-color: #271b1b80 !important;
 color: #ccc;
 font-weight: bold;
 font-size: 1rem;
