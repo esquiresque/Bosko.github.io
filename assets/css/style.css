@@ -64,6 +64,7 @@ button, button:focus, button:active{
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: rgba(0,0,0,0);
+    outline: none;
     }
 /******************************HEADER & NAV BAR******************************/
 
@@ -223,10 +224,10 @@ z-index: 5001;
   100%{transform scale (1) rotate(0deg);}
 }
 
-.slick-prev, .slick-next
+button.slick-prev, button.slick-next
 {
 display: inline-block;
-background-color: #271b1b80;
+background-color: #271b1b80 !important;
 color: #ccc;
 border: none;
 font-weight: bold;
@@ -252,7 +253,7 @@ top: 20rem;
 border-radius: 0px 0px 0px 15px;
 }
 
-.pauseplay
+button.pauseplay
 {
 width: 2rem;
 height: 2rem;
@@ -260,7 +261,7 @@ position: absolute;
 top: 18.2rem;
 right: 1rem;
 border: none;
-background-color: #271b1b80;
+background-color: #271b1b80 !important;
 color: #ccc;
 font-weight: bold;
 font-size: 1rem;
