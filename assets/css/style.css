@@ -221,39 +221,44 @@ z-index: 5001;
 .slick-prev, .slick-next
 {
 display: inline-block;
-background-color: transparent;
-color: #7E9B9F;
+background-color: #271b1b80;
+color: #ccc;
 border: none;
 font-weight: bold;
-font-size: 1.5rem;
+font-size: 1.2rem;
 position: absolute;
-top:5rem;
 cursor: pointer;
 z-index: 5010;
-width:3rem;
-height:3rem;
+width:2rem;
+height:2rem;
 }
 
 .slick-prev
 {
-right: 2.5rem;
-top: 10rem;
+right: 1rem;
+top: 15.6rem;
+border-radius: 15px 0px 0px 0px;
 }
 
 .slick-next
 {
-right: 2.5rem;
-top: 15rem;
+right: 1rem;
+top: 20rem;
+border-radius: 0px 0px 0px 15px;
 }
 
 .pauseplay
 {
-width: 4rem;
+width: 2rem;
 height: 2rem;
-float: right;
 position: absolute;
-top: 13rem;
-right: 2rem;
+top: 18.2rem;
+right: 1rem;
+border: none;
+background-color: #271b1b80;
+color: #ccc;
+font-weight: bold;
+font-size: 1rem;
 }
 
 .pauseplay:before{
@@ -503,6 +508,9 @@ button {
 @media screen and (max-width: 524px){
   .onclick-menu ul li a {
     font-size: 1.5rem !important;
+  }
+  .pauseplay{
+    top: 17.8rem;
   }
 }
 
