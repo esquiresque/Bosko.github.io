@@ -64,7 +64,7 @@ button, button:focus, button:active{
     -webkit-appearance: none;
     -moz-appearance: none;
     outline: none;
-    background-image:none;
+    background-color: #271b1b80;
     }
 /******************************HEADER & NAV BAR******************************/
 
@@ -224,7 +224,7 @@ z-index: 5001;
   100%{transform scale (1) rotate(0deg);}
 }
 
-slick-prev, .slick-next
+.slick-prev, .slick-next
 {
 display: inline-block;
 background-color: #271b1b80;
