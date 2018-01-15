@@ -243,7 +243,7 @@ z-index: 5001;
 {
 display: inline-block;
 background-color: #909DA080;
-color: #ccc;
+color: #e4e4e4;
 border: none;
 font-weight: bold;
 font-size: 1.2rem;
@@ -256,14 +256,14 @@ height:2rem;
 
 .slick-prev
 {
-right: 1rem;
+right: 0rem;
 top: 15.6rem;
 border-radius: 15px 0px 0px 0px;
 }
 
 .slick-next
 {
-right: 1rem;
+right: 0rem;
 top: 20rem;
 border-radius: 0px 0px 0px 15px;
 }
@@ -274,10 +274,10 @@ width: 2rem;
 height: 2rem;
 position: absolute;
 top: 18.2rem;
-right: 1rem;
+right: 0rem;
 border: none;
 background-color: #909DA080;
-color: #ccc;
+color: #e4e4e4;
 font-weight: bold;
 font-size: 1rem;
 }
