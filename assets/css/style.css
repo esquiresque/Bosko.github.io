@@ -65,6 +65,7 @@ button, button:focus, button:active{
     -moz-appearance: none;*/
     outline: none;
     background-color: #271b1b80;
+    border: none;
     }
 /******************************HEADER & NAV BAR******************************/
 
