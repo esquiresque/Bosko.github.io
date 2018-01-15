@@ -64,7 +64,7 @@ button, button:focus, button:active{
     /*-webkit-appearance: none;
     -moz-appearance: none;*/
     outline: none;
-    background-color: rgb(144,157,160);
+    background-color: rgb(144,157,160, 0.5);
     border: none;
     border-color: transparent;
     outline-color: transparent;
@@ -242,7 +242,7 @@ z-index: 5001;
 .slick-prev, .slick-next
 {
 display: inline-block;
-background-color: #909DA0;
+background-color: #909DA080;
 color: #ccc;
 border: none;
 font-weight: bold;
@@ -276,7 +276,7 @@ position: absolute;
 top: 18.2rem;
 right: 1rem;
 border: none;
-background-color: #909DA0;
+background-color: #909DA080;
 color: #ccc;
 font-weight: bold;
 font-size: 1rem;
