@@ -64,12 +64,11 @@ button, button:focus, button:active{
     /*-webkit-appearance: none;
     -moz-appearance: none;*/
     outline: none;
-    background-color: #271b1b80;
+    background-color: rgba(39,27,27,0.5);
     border: none;
     border-color: transparent;
     outline-color: transparent;
     border-image: none;
-    background-color:transparent;
    -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
