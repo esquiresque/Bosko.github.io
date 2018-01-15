@@ -290,6 +290,10 @@ font-size: 1rem;
   content: "\27A4";
 }
 
+.slick-prev:hover, .slick-next:hover,.slick-prev:active, .slick-next:active,.pauseplay:hover, .pauseplay:active{
+background-color: #909DA0;
+}
+
 ul.slick-dots
 {
   position: absolute;
