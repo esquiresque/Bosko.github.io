@@ -630,6 +630,10 @@ float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
+  .pflink img {
+    width: 16rem;
+    height: 16rem;
+}
 }
 
 @media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
