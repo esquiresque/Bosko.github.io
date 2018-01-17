@@ -568,6 +568,10 @@ button {
   .pauseplay{
     top: 17.8rem;
   }
+   .pflink img {
+    width: 22rem;
+    height: 22rem;
+    padding-top: 4rem;
 }
 
 @media screen and (max-width: 543px){
