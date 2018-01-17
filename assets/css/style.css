@@ -574,6 +574,44 @@ button {
     padding-top: 4rem;
 }
 
+  @media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
+  .onclick-menu {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    left:5%;
+}
+
+.NavIcon{
+visibility: hidden;
+float: none;
+}
+
+.onclick-menu-content{
+position: relative;
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+visibility: visible;
+z-index: inherit;
+opacity: 1;
+float: right;
+}
+
+.onclick-menu ul li{
+display: inline-block;
+cursor: context-menu;
+width: auto;
+line-height: normal;
+}
+
+.onclick-menu ul li a {
+    color: #268390;
+    font-size: 0.9rem;
+    font-weight: 500;
+    float: left;
+    margin-right: 1rem;
+}
+}
+  
 @media screen and (max-width: 543px){
   .Boskotainer img {
     width: 175% !important;
@@ -640,43 +678,7 @@ float: right;
 }
 }
 
-@media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
-  .onclick-menu {
-    position: relative;
-    display: inline-block;
-    width: 80%;
-    left:5%;
-}
 
-.NavIcon{
-visibility: hidden;
-float: none;
-}
-
-.onclick-menu-content{
-position: relative;
-background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-visibility: visible;
-z-index: inherit;
-opacity: 1;
-float: right;
-}
-
-.onclick-menu ul li{
-display: inline-block;
-cursor: context-menu;
-width: auto;
-line-height: normal;
-}
-
-.onclick-menu ul li a {
-    color: #268390;
-    font-size: 0.9rem;
-    font-weight: 500;
-    float: left;
-    margin-right: 1rem;
-}
-}
 
 @media screen and (min-width: 605px){
   .onclick-menu ul li{
