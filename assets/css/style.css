@@ -400,6 +400,15 @@ width: 0.5rem;
   line-height: 2rem;
 }
 
+/******************************ABOUT CONTENT SECTION***************/
+
+.pflink img{
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: top;
+}
+
 /******************************FOOTER******************************/
 
 .botty
