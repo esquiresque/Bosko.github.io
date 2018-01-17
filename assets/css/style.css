@@ -400,13 +400,33 @@ width: 0.5rem;
   line-height: 2rem;
 }
 
-/******************************ABOUT CONTENT SECTION***************/
+/******************************PORTFOLIO TOP SECTION***************/
+
+.pfcontainer{
+  display: inline-block;
+}
 
 .pflink img{
   width: 20rem;
   height: 20rem;
   object-fit: cover;
   object-position: top;
+}
+
+.pfimage1{
+  
+}
+
+.pfimage2{
+  
+}
+
+.pfimage3{
+  
+}
+
+.pfimage4{
+  
 }
 
 /******************************FOOTER******************************/
