@@ -409,24 +409,26 @@ width: 0.5rem;
 .pflink img{
   width: 20rem;
   height: 20rem;
+}
+
+.pfimage1{
   object-fit: cover;
   object-position: top;
 }
 
-.pfimage1{
-  
-}
-
 .pfimage2{
-  
+  object-fit: none;
+  object-position: -15rem -2rem;
 }
 
 .pfimage3{
-  
+  object-fit: none;
+  object-position: -10rem -23rem;
 }
 
 .pfimage4{
-  
+  object-fit: cover;
+  object-position: top;
 }
 
 /******************************FOOTER******************************/
