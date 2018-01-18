@@ -404,6 +404,8 @@ width: 0.5rem;
 
 #pfmenu{
   clear: both;
+  rgba(255, 255, 255, 0.48);
+  padding:1rem 0rem 0rem 0rem;
 }
 
 .pfcontainer{
