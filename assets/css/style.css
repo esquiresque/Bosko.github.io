@@ -416,11 +416,13 @@ width: 0.5rem;
 }
 
 .pflink h2{
-  bottom: 3rem;
-  position: relative;
+  width: 16rem;
+  height: 3rem;
+  position: absolute;
   line-height: 3rem;
   background-color: rgba(0,0,0,0.6);
   color: #FBFFC1;
+  transform: translate(0rem, 3.4rem);
 }
 
 .pfimage1{
