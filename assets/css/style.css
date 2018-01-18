@@ -415,6 +415,14 @@ width: 0.5rem;
   height: 20rem;
 }
 
+.pflink h2{
+  bottom: 3rem;
+  position: relative;
+  line-height: 3rem;
+  background-color: rgba(0,0,0,0.6);
+  color: #FBFFC1;
+}
+
 .pfimage1{
   object-fit: cover;
   object-position: top;
@@ -434,6 +442,7 @@ width: 0.5rem;
   object-fit: cover;
   object-position: top;
 }
+
 
 /******************************FOOTER******************************/
 
