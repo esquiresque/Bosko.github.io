@@ -402,6 +402,10 @@ width: 0.5rem;
 
 /******************************PORTFOLIO TOP SECTION***************/
 
+#pfmenu{
+  clear: both;
+}
+
 .pfcontainer{
   display: inline-block;
 }
@@ -565,10 +569,6 @@ button {
   .onclick-menu ul li a {
     font-size: 1.5rem !important;
   }
-   .pflink img {
-    width: 22rem;
-    height: 22rem;
-    padding-top: 4rem;
 }
 
   @media screen and (min-width: 525px){   /*DISPLAYS NAV MENU LIST ITEMS AFTER THIS SCREEN-WIDTH*/
@@ -685,6 +685,14 @@ float: right;
 font-size: 0.9rem;
 margin-right: 1rem;
 }
+}
+  
+ @media screen and(max-width: 644px){
+    .pflink img {
+    width: 22rem;
+    height: 22rem;
+
+  }
 }
 
 @media screen and (min-width: 701px){
