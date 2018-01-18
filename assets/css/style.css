@@ -638,7 +638,6 @@ line-height: normal;
     float:none;}
   .AboutPix1
 {
-/*! visibility: hidden; */
 display: none;
 }
   .AboutPix2{
@@ -651,6 +650,9 @@ display: none;
     width: 90%;
     margin: auto auto;
     display: block;
+  }
+  .pflink h2{
+    width:20rem;
   }
 }
 
