@@ -408,6 +408,19 @@ width: 0.5rem;
   padding:1rem 0rem 0rem 0rem;
 }
 
+#pfmenu h2{
+  color: #268390;
+  font-weight: 500;
+  padding: 0rem 1rem;
+}
+
+#pfmenu p{
+  padding: 0% 12%;
+  text-align: justify;
+  color: #268390;
+  margin-bottom: 1rem;
+}
+
 .pfcontainer{
   display: inline-block;
 }
