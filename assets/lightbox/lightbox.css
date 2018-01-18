@@ -196,7 +196,8 @@ top: 0px;
 }
 
 .lbcontainer {
-  position: relative;
+  position: static;
+  display: inline-block;
   clear: both;
   z-index: 5010;
 }
