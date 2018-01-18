@@ -412,13 +412,14 @@ width: 0.5rem;
   color: #268390;
   font-weight: 500;
   padding: 0rem 1rem;
+  background-color: #fff;
 }
 
 #pfmenu p{
   padding: 0% 12%;
   text-align: justify;
   color: #268390;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
 }
 
 .pfcontainer{
