@@ -637,6 +637,9 @@ line-height: normal;
     float: left;
     margin-right: 1rem;
 }
+.pauseplay{
+    top: 18.2rem;
+    }
 }
   
 @media screen and (max-width: 543px){
