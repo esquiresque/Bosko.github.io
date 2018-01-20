@@ -444,6 +444,13 @@ width: 0.5rem;
   transform: translate(0rem, -3.4rem);
 }
 
+#lbmenu h3{
+padding-top: 1rem;
+color: #fff;
+font-weight: 500;
+font-size: 1.5rem;
+}
+
 .pfimage1{
   object-fit: cover;
   object-position: top;
