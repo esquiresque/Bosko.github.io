@@ -451,6 +451,12 @@ font-weight: 500;
 font-size: 1.5rem;
 }
 
+.lbcontainer p{
+  text-align: justify;
+padding: 0rem 1rem 0.5rem 1rem;
+color: #fff;
+}
+
 .pfimage1{
   object-fit: cover;
   object-position: top;
