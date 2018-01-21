@@ -204,6 +204,22 @@ top: 0px;
     margin-bottom: 1rem;
 }*/
 
+#lbmenu1{
+background-color: rgba(95, 116, 119, 0.5);
+}
+
+#lbmenu2{
+background-color: rgba(56, 126, 65, 0.5);
+}
+
+#lbmenu3{
+background-color: rgba(161, 125, 53, 0.5);
+}
+
+#lbmenu4{
+background-color: rgba(140, 92, 92, 0.5);
+}
+
 .lbcontainer {
   position: static;
   display: inline-block;
