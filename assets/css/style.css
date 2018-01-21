@@ -444,14 +444,14 @@ width: 0.5rem;
   transform: translate(0rem, -3.4rem);
 }
 
-#lbmenu h3{
+.pfblkout h3{
 padding-top: 1rem;
 color: #fff;
 font-weight: 500;
 font-size: 1.5rem;
 }
 
-#lbmenu p{
+.pfblkout p{
   text-align: justify;
 padding: 0rem 1rem 0.5rem 1rem;
 color: #fff;
