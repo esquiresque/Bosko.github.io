@@ -451,7 +451,7 @@ font-weight: 500;
 font-size: 1.5rem;
 }
 
-.lbcontainer p{
+#lbmenu p{
   text-align: justify;
 padding: 0rem 1rem 0.5rem 1rem;
 color: #fff;
