@@ -199,10 +199,10 @@ max-width: 100vw;
 top: 0px;
 }
 
-.pfblkout{
+/*.pfblkout{
     background-color: rgba(95, 116, 119, 0.5);
     margin-bottom: 1rem;
-}
+}*/
 
 .lbcontainer {
   position: static;
