@@ -222,7 +222,6 @@ background-color: rgba(140, 92, 92, 0.5);
 
 .lbcontainer {
   position: static;
-  display: inline-block;
   clear: both;
   z-index: 5010;
 }
