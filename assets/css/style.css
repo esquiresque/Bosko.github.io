@@ -529,6 +529,7 @@ color: #fff;
 }
 
 .twitwoo{
+  background-image: url("/assets/images/twitlit.png");
   background-image: url("/assets/images/twitlow.png");
   background-repeat: no-repeat;
   background-size: contain;
