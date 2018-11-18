@@ -528,11 +528,6 @@ color: #fff;
   height:100%;
 }
 
-li.twitwoo:after{
- display:none;
- content: url("/assets/images/twitlit.png");
-}
-
 .twitwoo{
   background-image: url("/assets/images/twitlow.png");
   background-repeat: no-repeat;
