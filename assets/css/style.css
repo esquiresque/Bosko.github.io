@@ -536,13 +536,6 @@ color: #fff;
   cursor:pointer;
 }
 
-.twitwoo:before{
-  content: url("/assets/images/twitlit.png");
-  width:0;
-  height:0;
-  visibility:hidden;
-}
-
 .twitwoo:hover{
   background-image: url("/assets/images/twitlit.png");
   background-repeat: no-repeat;
