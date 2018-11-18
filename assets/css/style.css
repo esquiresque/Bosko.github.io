@@ -522,13 +522,6 @@ color: #fff;
  
 }
 
-.social ul li:before:{
-  content: normal;
-  width:0;
-  height:0;
-  display:none;
-}
-
 .social ul li a{
   float:left;
   width:100%;
@@ -543,12 +536,12 @@ color: #fff;
   cursor:pointer;
 }
 
-/*.twitwoo:before{
+.twitwoo:before{
   content: url("/assets/images/twitlit.png");
   width:0;
   height:0;
   display:none;
-}*/
+}
 
 .twitwoo:hover{
   background-image: url("/assets/images/twitlit.png");
@@ -566,7 +559,14 @@ color: #fff;
   background-position: center;
   cursor:pointer;
 }
-  
+
+.instawoo:before{
+  content: url("/assets/images/instalit.png");
+  width:0;
+  height:0;
+  display:none;
+}
+
 .instawoo:hover{
   background-image: url("/assets/images/instalit.png");
   background-repeat: no-repeat;
@@ -583,6 +583,13 @@ color: #fff;
   cursor:pointer;
 }
   
+.tumbwoo:before{
+  content: url("/assets/images/tumblit.png");
+  width:0;
+  height:0;
+  display:none;
+}
+
 .tumbwoo:hover{
   background-image: url("/assets/images/tumblit.png");
   background-repeat: no-repeat;
