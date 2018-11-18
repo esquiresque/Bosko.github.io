@@ -522,7 +522,7 @@ color: #fff;
  
 }
 
-.social ul li:before:before{
+.social ul li:before:{
   content: normal;
   width:0;
   height:0;
