@@ -42,11 +42,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f7', end
 
 }
 
-body:after{
- display:none;
- content: url("/assets/images/twitlit.png");
-}
-
 li
 {
   list-style:none;
@@ -531,6 +526,11 @@ color: #fff;
   float:left;
   width:100%;
   height:100%;
+}
+
+li.twitwoo:after{
+ display:none;
+ content: url("/assets/images/twitlit.png");
 }
 
 .twitwoo{
