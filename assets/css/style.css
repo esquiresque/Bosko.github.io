@@ -42,6 +42,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f7', end
 
 }
 
+body:after{
+ display:none;
+ content: url("/assets/images/twitlit.png");
+}
+
 li
 {
   list-style:none;
