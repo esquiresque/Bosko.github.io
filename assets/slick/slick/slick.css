@@ -41,7 +41,7 @@
     background-color: rgba(0,0,0,0.3);
     right: 0;
     padding: 0rem 1rem;
-    top: 15%;
+    /*top: 15%;*/
     -webkit-animation: 4s ease-in sideslide;
   -moz-animation: 4s ease-in sideslide;
 }
@@ -145,4 +145,18 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+/******************************ScreenSizes******************************/
+
+@media screen and (max-width: 524px){ /*DISPLAYS CAROUSEL BUTTON AT BOTTOM RIGHT CORNER AT SCREEN SIZES < 525px*/
+  .slick-active a{
+    top: 90%;
+  }
+}
+
+@media screen and (min-width: 525px){ /*DISPLAYS CAROUSEL BUTTON AT TOP RIGHT CORNER AT SCREEN SIZES > 525px*/
+    .slick-active a{
+    top: 15%;
+  }
 }
