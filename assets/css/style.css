@@ -390,7 +390,6 @@ width: 0.5rem;
 .aboutlink1, .aboutlink2
 {
   float: right;
-  width: 90%;
   text-align: center;
   color: #ccc;
   font-weight: 500;
@@ -401,11 +400,13 @@ width: 0.5rem;
 
 .aboutlink1
 {
+  width: 90%;
   right: 10%;
 }
 
 .aboutlink2
 {
+  width:185%;
   right: 5%;
 }
 
