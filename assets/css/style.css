@@ -390,6 +390,7 @@ width: 0.5rem;
 .aboutlink1, .aboutlink2
 {
   float: right;
+  right: 10%;
   text-align: center;
   color: #ccc;
   font-weight: 500;
@@ -401,13 +402,11 @@ width: 0.5rem;
 .aboutlink1
 {
   width: 90%;
-  right: 10%;
 }
 
 .aboutlink2
 {
-  width:185%;
-  right: 5%;
+  width:180%;
 }
 
 /******************************PORTFOLIO TOP SECTION***************/
