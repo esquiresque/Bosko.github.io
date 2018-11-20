@@ -354,6 +354,15 @@ width: 0.5rem;
   padding: 1rem 1rem 0rem 1rem;
 }
 
+.contact h2
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
 .Boskontent p
 {
   padding: 0rem 1rem 1rem;
@@ -734,7 +743,8 @@ display: none;
   .bottydiv p{
     text-align: left;}
   .contact{
-    float:left;}
+    float:left;
+    margin-left:25%;}
   .AboutMe{
     width: 100%;
     display: inline-block;
@@ -759,6 +769,10 @@ float: right;
 }
   .contact form input{
       display: block;
+    }
+  .contact form textarea{
+      display: block;
+      min-width:50%;
     }
 }
 
