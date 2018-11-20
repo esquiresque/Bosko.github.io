@@ -743,6 +743,7 @@ display: none;
   .bottydiv p{
     text-align: left;}
   .contact{
+    width:50%;
     float:left;
     margin-left:25%;}
   .AboutMe{
@@ -768,6 +769,7 @@ float: right;
     height: 16rem;
 }
   .contact form input{
+      width:50%;
       display: block;
     }
   .contact form textarea{
