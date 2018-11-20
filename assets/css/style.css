@@ -328,6 +328,7 @@ width: 0.5rem;
 {
   width:100%;
   bottom: 5rem;
+  position: relative;
 }
 
 .Boskontent
@@ -365,7 +366,6 @@ width: 0.5rem;
 #Boskontact
 {
   width:100%;
-  position: relative;
   bottom: 5rem;
 }
 
