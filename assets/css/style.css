@@ -751,6 +751,9 @@ float: right;
     width: 16rem;
     height: 16rem;
 }
+  .contact form input{
+      display: block;
+    }
 }
 
 
