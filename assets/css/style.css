@@ -385,6 +385,7 @@ border: 1px solid #fff;
 margin-top: 2rem;
 padding: 0.5rem;
 margin-left: 35%;
+margin-bottom: 2rem;
 }
 
 .contact form button:hover{
@@ -429,6 +430,7 @@ margin-left: 35%;
 {
   width:100%;
   bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .AboutPix1 img, AboutPix2 img{
