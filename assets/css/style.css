@@ -377,6 +377,14 @@ width: 0.5rem;
     line-height: 2rem;
     }
 
+.contact form button{
+  background: #fff;
+border: 1px solid #808080;
+margin-top: 2rem;
+padding: 0.5rem;
+margin-left: 35%;
+}
+
 .contact h2
 {
   font-family: 'Raleway', sans-serif;
