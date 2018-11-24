@@ -378,8 +378,17 @@ width: 0.5rem;
     }
 
 .contact form button{
-  background: #fff;
-border: 1px solid #808080;
+  background-color: #D3D3D3;
+  color: #76768f;
+border: none;
+margin-top: 2rem;
+padding: 0.5rem;
+margin-left: 35%;
+}
+
+.contact form button:hover{
+  background-color: #fff;
+border: none;
 margin-top: 2rem;
 padding: 0.5rem;
 margin-left: 35%;
