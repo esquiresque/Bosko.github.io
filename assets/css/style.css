@@ -360,10 +360,17 @@ width: 0.5rem;
     margin-left:22%;
 }
 .contact form input{
-      width:75%;
-      display: block;
+    font-size: 1rem;
+    width: 75%;
+    display: block;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    padding-left: 1rem;
     }
+
   .contact form textarea{
+    font-family: sans-serif;
+    font-size: 1rem;
       display: block;
       width:75%;
     }
