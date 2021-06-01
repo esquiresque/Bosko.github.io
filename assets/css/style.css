@@ -503,7 +503,8 @@ margin-left: 35%;
 
 .pfcontainer{
   display: inline-block;
-  margin: 0.25rem;
+  margin-top: 0.25rem;
+  margin-left: 0.3rem;
 }
 
 .pflink img{
@@ -521,6 +522,7 @@ margin-left: 35%;
   font-weight:600;
   font-style: oblique;
   transform: translate(0rem, -3.4rem);
+  text-align: center;
 }
 
 .pfblkout h3{
