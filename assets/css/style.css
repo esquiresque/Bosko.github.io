@@ -514,14 +514,13 @@ margin-left: 35%;
 
 .pflink h3{
   width: 16rem;
-  height: 3rem;
   position: absolute;
-  line-height: 3rem;
+  line-height: normal;
   background-color: rgba(0,0,0,0.6);
   color: #fff;
   font-weight:600;
   font-style: oblique;
-  transform: translate(0rem, -3.4rem);
+  transform: translate(0rem, -8rem);
   text-align: center;
 }
 
