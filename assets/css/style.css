@@ -151,7 +151,7 @@ button::-moz-focus-inner {
 
 .NavIcon
   {
-  background-image: url('https:/imbul.github.io/assets/images/MenuBtn.png');
+  background-image: url("https://imbul.github.io/assets/images/MenuBtn.png");
 /*width: 2.5em;
 height: 4.5em;*/
     width: 4rem;
